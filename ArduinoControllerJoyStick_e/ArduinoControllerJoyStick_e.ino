@@ -24,6 +24,7 @@
 #define DPIN_PJON 12
 #define DPIN_LED 13
 
+bool PTZ_00_ON = false;
  #define PTZ_00 '4'
  #define APIN_PTZ_PAN00 A0
  #define APIN_PTZ_TLT00 A1
@@ -32,6 +33,7 @@
  #define DPIN_00_02 50 
  #define DPIN_00_03 48
 
+bool PTZ_01_ON = false;
  #define PTZ_01 '2'
  #define APIN_PTZ_PAN01 A3
  #define APIN_PTZ_TLT01 A4
@@ -40,6 +42,7 @@
  #define DPIN_01_02 51 
  #define DPIN_01_03 49
 
+bool PTZ_02_ON = false;
  #define PTZ_02 '3'
  #define APIN_PTZ_PAN02 A8
  #define APIN_PTZ_TLT02 A9
@@ -340,9 +343,9 @@ void loop()
   xBeeLapStatus();
   blinkLed();
 
-  readPTZ_00();
-  readPTZ_01();
-  //readPTZ_02();
+if (PTZ_00_ON) readPTZ_00();
+if (PTZ_01_ON) readPTZ_01();
+if (PTZ_02_ON) readPTZ_02();
     
   //readPtzPot();
   

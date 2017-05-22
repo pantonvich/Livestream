@@ -120,6 +120,8 @@
             this.txtTitleSponsor = new System.Windows.Forms.TextBox();
             this.btnTitleSponsorSave = new System.Windows.Forms.Button();
             this.chkUpdateLap = new System.Windows.Forms.CheckBox();
+            this.chkShowResults = new System.Windows.Forms.CheckBox();
+            this.txtCat = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.LedFrequencyLabelTrackBar)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -227,9 +229,9 @@
             // 
             this.txtLaps.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtLaps.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLaps.Location = new System.Drawing.Point(476, 3);
+            this.txtLaps.Location = new System.Drawing.Point(566, 4);
             this.txtLaps.Name = "txtLaps";
-            this.txtLaps.Size = new System.Drawing.Size(146, 56);
+            this.txtLaps.Size = new System.Drawing.Size(105, 56);
             this.txtLaps.TabIndex = 17;
             this.txtLaps.Text = "-1";
             this.txtLaps.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1115,7 +1117,7 @@
             this.bufCt.AutoSize = true;
             this.bufCt.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bufCt.ForeColor = System.Drawing.Color.Firebrick;
-            this.bufCt.Location = new System.Drawing.Point(798, 3);
+            this.bufCt.Location = new System.Drawing.Point(847, 4);
             this.bufCt.Name = "bufCt";
             this.bufCt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.bufCt.Size = new System.Drawing.Size(51, 55);
@@ -1126,7 +1128,7 @@
             // txtBoxLaps
             // 
             this.txtBoxLaps.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxLaps.Location = new System.Drawing.Point(628, 3);
+            this.txtBoxLaps.Location = new System.Drawing.Point(677, 4);
             this.txtBoxLaps.MaxLength = 3;
             this.txtBoxLaps.Name = "txtBoxLaps";
             this.txtBoxLaps.Size = new System.Drawing.Size(96, 56);
@@ -1144,7 +1146,7 @@
             // chkManualOverride
             // 
             this.chkManualOverride.AutoSize = true;
-            this.chkManualOverride.Location = new System.Drawing.Point(730, 6);
+            this.chkManualOverride.Location = new System.Drawing.Point(779, 7);
             this.chkManualOverride.Name = "chkManualOverride";
             this.chkManualOverride.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkManualOverride.Size = new System.Drawing.Size(61, 17);
@@ -1156,7 +1158,7 @@
             // 
             this.chkUp.AutoSize = true;
             this.chkUp.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkUp.Location = new System.Drawing.Point(730, 29);
+            this.chkUp.Location = new System.Drawing.Point(779, 30);
             this.chkUp.Name = "chkUp";
             this.chkUp.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkUp.Size = new System.Drawing.Size(40, 17);
@@ -1299,7 +1301,7 @@
             this.chkUpdateLap.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkUpdateLap.Checked = true;
             this.chkUpdateLap.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkUpdateLap.Location = new System.Drawing.Point(361, 435);
+            this.chkUpdateLap.Location = new System.Drawing.Point(361, 431);
             this.chkUpdateLap.Name = "chkUpdateLap";
             this.chkUpdateLap.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkUpdateLap.Size = new System.Drawing.Size(44, 17);
@@ -1307,11 +1309,38 @@
             this.chkUpdateLap.Text = "Lap";
             this.chkUpdateLap.UseVisualStyleBackColor = true;
             // 
+            // chkShowResults
+            // 
+            this.chkShowResults.AutoSize = true;
+            this.chkShowResults.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkShowResults.Checked = true;
+            this.chkShowResults.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkShowResults.Location = new System.Drawing.Point(361, 407);
+            this.chkShowResults.Name = "chkShowResults";
+            this.chkShowResults.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkShowResults.Size = new System.Drawing.Size(61, 17);
+            this.chkShowResults.TabIndex = 49;
+            this.chkShowResults.Text = "Results";
+            this.chkShowResults.UseVisualStyleBackColor = true;
+            // 
+            // txtCat
+            // 
+            this.txtCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCat.Location = new System.Drawing.Point(503, 3);
+            this.txtCat.MaxLength = 3;
+            this.txtCat.Name = "txtCat";
+            this.txtCat.Size = new System.Drawing.Size(57, 56);
+            this.txtCat.TabIndex = 50;
+            this.txtCat.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCat.TextChanged += new System.EventHandler(this.txtCat_TextChanged);
+            // 
             // ControllerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 516);
+            this.Controls.Add(this.txtCat);
+            this.Controls.Add(this.chkShowResults);
             this.Controls.Add(this.chkUpdateLap);
             this.Controls.Add(this.btnTitleSponsorSave);
             this.Controls.Add(this.txtTitleSponsor);
@@ -1471,6 +1500,8 @@
         public System.Windows.Forms.TextBox txtTitleSponsor;
         public System.Windows.Forms.Button btnTitleSponsorSave;
         private System.Windows.Forms.CheckBox chkUpdateLap;
+        private System.Windows.Forms.CheckBox chkShowResults;
+        private System.Windows.Forms.TextBox txtCat;
     }
 }
 

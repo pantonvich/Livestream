@@ -576,37 +576,68 @@ namespace ArduinoController
 
             btnEventNameSave.BackColor = _connectedBackColor;
 
+            var pos = txtEventName.Text.IndexOf("Cat.", 0, StringComparison.OrdinalIgnoreCase);
+
+            if (pos != -1)
+            {
+                txtCat.Text = txtEventName.Text.Substring(pos + 5, 1);
+                //if (chkShowResults.Checked)
+            }
+            else
+            {
+                if (txtEventName.Text.IndexOf("Women", 0, StringComparison.OrdinalIgnoreCase) == 0)
+                {
+                    txtCat.Text = "W";
+                }
+                else
+                {
+                    txtCat.Text = "";
+                }
+            }
+
+
             if (chkUpdateLap.Checked)
             {
                 //expect: lap in front of laps i.e. "ljsdlfjsdl 50 lap lsdjflks sprints every 10 laps"
                 var posSkipLaps = txtEventName.Text.IndexOf(" laps", 0, StringComparison.OrdinalIgnoreCase) - 1;
                 var posEnd = txtEventName.Text.IndexOf(" lap", 0, StringComparison.OrdinalIgnoreCase) - 1;
 
-                if (posEnd == -1 || posSkipLaps == posEnd) return;
-
-                if (posEnd > -1)
+                if (posEnd != -1 && posSkipLaps != posEnd)
                 {
-                    //accound for "56 lap" and not just "dslfjsdlkfj 50 lap"
-                    var posStrt = 0;
 
-                    if (posEnd > 2) { 
-                        posStrt = txtEventName.Text.LastIndexOf(" ", posEnd);
-                    }
-
-                    if (posStrt > -1)
+                    if (posEnd > -1)
                     {
-                        var lap = "";
-                        if (posEnd == 0 && posStrt == 0) {
-                            lap = txtEventName.Text.Substring(0, 1);
-                        } else {
-                            lap = txtEventName.Text.Substring(posStrt + 1, posEnd - posStrt);
+                        //accound for "56 lap" and not just "dslfjsdlkfj 50 lap"
+                        var posStrt = 0;
+
+                        if (posEnd > 2)
+                        {
+                            posStrt = txtEventName.Text.LastIndexOf(" ", posEnd);
                         }
 
-                        txtBoxLaps.Text = (int.Parse(lap) + 1).ToString();
-                        txtLaps_Click(null,null);
-                    } 
-                } 
+                        if (posStrt > -1)
+                        {
+                            var lap = "";
+                            if (posEnd == 0 && posStrt == 0)
+                            {
+                                lap = txtEventName.Text.Substring(0, 1);
+                            }
+                            else
+                            {
+                                lap = txtEventName.Text.Substring(posStrt + 1, posEnd - posStrt);
+                            }
+
+                            txtBoxLaps.Text = (int.Parse(lap) + 1).ToString();
+                            txtLaps_Click(null, null);
+                            return;
+                        }
+                    }
+                }
             }
+            txtBoxLaps.Text = "-1";
+            txtLaps_Click(null, null);
+
+
         }
 
         private void btnTitleSponsorSave_Click(object sender, EventArgs e)
@@ -663,6 +694,33 @@ namespace ArduinoController
         private void txtFeedEventName_TextChanged(object sender, EventArgs e)
         {
             btnEventNameSave.BackColor = _disconnectedBackColor;
+        }
+
+        Timer stateTimer;
+
+        private void txtCat_TextChanged(object sender, EventArgs e)
+        {
+
+            if (chkUpdateLap.Checked && _websocketClientOpen)
+            {
+                var resultCat = txtCat.Text.Trim();
+                if (resultCat != "")
+                {
+                    //,\"scene-name\":\"Scene\"
+                    _websocketClient.Send("{\"request-type\":\"SetSourceRender\",\"source\":\"Result"+ resultCat + "\",\"render\":true}");
+
+                    stateTimer = new Timer();
+                    stateTimer.Interval = 60000;
+                    stateTimer.Tick += new EventHandler(Timer_Tick);
+                    stateTimer.Start();
+
+                }
+            }
+        }
+        void Timer_Tick(Object myObject, EventArgs myEventArgs)
+        {
+            _websocketClient.Send("{\"request-type\":\"SetSourceRender\",\"source\":\"ResultA\",\"render\":false}");
+            stateTimer.Stop();
         }
 
     }

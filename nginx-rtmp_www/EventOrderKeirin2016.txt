@@ -1,0 +1,51 @@
+ID - Time - Sponsor - Title 
+East Point Velodrome Assoc.
+
+Maxxis - 200m Time Trial All Categories
+Maxxis - Women 5 Lap
+Maxxis - Sprint 5 Lap Rep
+Maxxis - Cat. C 5 Lap Scratch
+Maxxis - Sprint Round 1
+Maxxis - Cat. B 5 Lap Scratch
+Maxxis - Sprint 5 Lap Rep
+Maxxis - Cat. A  5 Lap Scratch
+Maxxis - Women 10 Lap Scratch
+Maxxis - Sprint Quarter Finals
+Maxxis - Cat. C 10 Lap Scratch
+Maxxis - Sprint Semi Finals
+Maxxis - Cat. B 10 Lap Scratch
+Maxxis - Sprint 5-8 Final
+Maxxis - Cat. A 10 Lap Scratch
+Maxxis - Sprint Finals
+
+Service Course Auto - Cat. C 15 Lap Snowball
+Ethic, Inc. - Women 15 Lap Snowball
+Faster Mustache - Cat. B Lap Snowball
+OZ Pizza - Cat. A Lap Snowball
+Service Course Auto - Cat. C Unknown Distance
+Faster Mustache - Cat. B Unknown Distance
+Ethic, Inc. - Women Unknown Distance
+OZ Pizza - Cat. A Unknown Distance
+Service Course Auto - Cat. C 30 Lap Points Race
+Ethic, Inc. - Women 30 Lap Points Race
+Faster Mustache - Cat. B 40 Lap Points Race
+OZ Pizza - Cat. A 60 Lap Points Race
+USA!!! - National Anthem
+Merial - Keirin Round 1
+Service Course Auto - Cat. C Win and Out
+Faster Mustache - Cat. B Miss and Out
+Metro Atlanta, CC - YCL Scratch Races
+Merial - Keirin Round 2
+Ethic, Inc. - Women Miss and Out
+Service Course Auto - Cat. C Chariot Race
+Metro Atlanta, CC - YCL Miss and Outs
+Merial - Keirin Round 3
+Faster Mustache - Cat. B Win and In
+Metro Atlanta, CC - YCL Scratch Races
+OZ Pizza - Cat. A Win and Out
+Merial - Keirin Round 4
+East Point Velodrome Assoc. - YCL Awards
+Ethic, Inc. - Women Chariot
+OZ Pizza - Cat. A Miss and Out
+Merial - Keirin Finals
+Merial - Awards Presentation

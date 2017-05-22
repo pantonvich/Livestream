@@ -1,0 +1,1351 @@
+12:06:44.801: CPU Name: Intel(R) Xeon(R) CPU           X3470  @ 2.93GHz
+12:06:44.807: CPU Speed: 2933MHz
+12:06:44.808: Physical Cores: 4, Logical Cores: 8
+12:06:44.808: Physical Memory: 16347MB Total, 11034MB Free
+12:06:44.808: Windows Version: 10.0 Build 14393 (revision: 1066; 64-bit)
+12:06:44.808: Running as administrator: false
+12:06:44.808: Aero is Enabled (Aero is always on for windows 8 and above)
+12:06:44.829: Portable mode: false
+12:06:44.989: OBS 18.0.1 (64bit, windows)
+12:06:44.989: ---------------------------------
+12:06:44.991: ---------------------------------
+12:06:44.991: audio settings reset:
+12:06:44.991: 	samples per sec: 44100
+12:06:44.991: 	speakers:        2
+12:06:45.056: ---------------------------------
+12:06:45.056: Initializing D3D11..
+12:06:45.057: Available Video Adapters: 
+12:06:45.058: 	Adapter 1: AMD Radeon HD 5450
+12:06:45.058: 	  Dedicated VRAM: 1059917824
+12:06:45.058: 	  Shared VRAM:    4026531840
+12:06:45.058: 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+12:06:45.058: 	  output 2: pos={1920, 47}, size={1280, 1024}, attached=true
+12:06:45.070: Loading up D3D11 on adapter AMD Radeon HD 5450 (0)
+12:06:45.077: D3D11 loaded sucessfully, feature level used: 45056
+12:06:46.170: ---------------------------------
+12:06:46.171: video settings reset:
+12:06:46.171: 	base resolution:   1920x1080
+12:06:46.171: 	output resolution: 1280x720
+12:06:46.171: 	downscale filter:  Bicubic
+12:06:46.171: 	fps:               30/1
+12:06:46.171: 	format:            NV12
+12:06:46.171: Audio monitoring device:
+12:06:46.171: 	name: Default
+12:06:46.171: 	id: default
+12:06:46.185: ---------------------------------
+12:06:46.314: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+12:06:46.368: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+12:06:46.436: [AMF Encoder] Unable to load 'amfrt64.dll', error code 126.
+12:06:46.482: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/ffmpegsumo.dll' not found, loading of module failed
+12:06:47.041: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+12:06:47.068: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+12:06:47.119: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+12:06:47.145: Failed to load 'en-US' text for module: 'obs-browser.dll'
+12:06:47.145: [browser_source: 'Version: 1.29.0']
+12:06:47.392: LoadLibrary failed for 'nvEncodeAPI64.dll': The specified module could not be found.
+12:06:47.392:  (126)
+12:06:48.279: Failed to load 'en-US' text for module: 'obs-websocket.dll'
+12:06:48.279: [obs-websocket] you can haz websockets (version 4.0.0)
+12:06:48.434: [obs-websocket] module loaded!
+12:06:48.490: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/Qt5Network.dll' not found, loading of module failed
+12:06:48.490: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/Qt5WebSockets.dll' not found, loading of module failed
+12:06:48.817: VLC found, VLC video source enabled
+12:06:49.282: ---------------------------------
+12:06:49.282:   Loaded Modules:
+12:06:49.282:     win-wasapi.dll
+12:06:49.282:     win-mf.dll
+12:06:49.282:     win-dshow.dll
+12:06:49.282:     win-decklink.dll
+12:06:49.282:     win-capture.dll
+12:06:49.282:     vlc-video.dll
+12:06:49.282:     text-freetype2.dll
+12:06:49.282:     rtmp-services.dll
+12:06:49.282:     obs-x264.dll
+12:06:49.282:     obs-websocket.dll
+12:06:49.282:     obs-vst.dll
+12:06:49.282:     obs-transitions.dll
+12:06:49.282:     obs-text.dll
+12:06:49.282:     obs-qsv11.dll
+12:06:49.282:     obs-outputs.dll
+12:06:49.283:     obs-filters.dll
+12:06:49.283:     obs-ffmpeg.dll
+12:06:49.283:     obs-browser.dll
+12:06:49.283:     image-source.dll
+12:06:49.283:     frontend-tools.dll
+12:06:49.283:     enc-amf.dll
+12:06:49.283:     coreaudio-encoder.dll
+12:06:49.283: ==== Startup complete ===============================================
+12:06:49.371: Switched to Preview/Program mode
+12:06:49.371: ------------------------------------------------
+12:06:49.404: All scene data cleared
+12:06:49.404: ------------------------------------------------
+12:06:49.560: WASAPI: Device 'Speakers (3- Logitech G930 Gaming Headset)' initialized
+12:06:49.560: [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{3b04f5d2-fd36-4570-9dcf-478c856368f7}' not found.  Waiting for device
+12:06:49.561: [WASAPISource::TryInitialize]:[Mic in at front panel (Pink) (Realtek High Definition Audio)] Failed to activate client context: 88890004
+12:06:49.561: [WASAPISource::WASAPISource] Device '{0.0.1.00000000}.{26143bbb-3cd7-41b1-9e2d-0500179f4d27}' not found.  Waiting for device
+12:06:49.720: adding 162 milliseconds of audio buffering, total audio buffering is now 162 milliseconds
+12:07:16.422: FT2-text: Failed to open //192.168.0.108/obs-dev/CurrentEvent.txt for reading
+12:07:16.444: FT2-text: Failed to open //192.168.0.108/obs-dev/laps.html for reading
+12:07:16.512: Turn1: Starting capture...
+12:07:16.545: TurnSwitch: Starting capture...
+12:07:16.566: FinishLine: Starting capture...
+12:07:16.590: Turn3: Starting capture...
+12:07:16.629: Switched to scene 'Scene BackSide'
+12:07:16.637: ------------------------------------------------
+12:07:16.637: Loaded scenes:
+12:07:16.637: - scene 'SceneTurn1FinishLine':
+12:07:16.637:     - source: 'TurnSwitch' (decklink-input)
+12:07:16.637:     - source: 'Turn3' (decklink-input)
+12:07:16.637:     - source: 'Turn1' (decklink-input)
+12:07:16.637:         - filter: 'Crop/Pad' (crop_filter)
+12:07:16.637:     - source: 'FinishLine' (decklink-input)
+12:07:16.637:     - source: 'TextScrillongResults' (window_capture)
+12:07:16.637:         - filter: 'Crop' (crop_filter)
+12:07:16.637:         - filter: 'Color Key' (color_key_filter)
+12:07:16.637:     - source: 'Finshline - Turn1' (text_ft2_source)
+12:07:16.637:     - source: 'CurrentEventText' (text_ft2_source)
+12:07:16.637:     - source: 'LapsText' (text_ft2_source)
+12:07:16.637:     - source: 'SponsorText' (text_ft2_source)
+12:07:16.637:     - source: 'ResultsText' (text_ft2_source)
+12:07:16.637: - scene 'Scene Split':
+12:07:16.637:     - source: 'TurnSwitch' (decklink-input)
+12:07:16.637:     - source: 'Turn1' (decklink-input)
+12:07:16.637:         - filter: 'Crop/Pad' (crop_filter)
+12:07:16.637:     - source: 'TextScrillongResults' (window_capture)
+12:07:16.637:         - filter: 'Crop' (crop_filter)
+12:07:16.637:         - filter: 'Color Key' (color_key_filter)
+12:07:16.637:     - source: 'Finish-Turn1' (text_ft2_source)
+12:07:16.637:     - source: 'Back-Turn3' (text_ft2_source)
+12:07:16.637:     - source: 'SponsorText' (text_ft2_source)
+12:07:16.637:     - source: 'LapsText' (text_ft2_source)
+12:07:16.637:     - source: 'TurnSwitch' (decklink-input)
+12:07:16.637:     - source: 'Turn3' (decklink-input)
+12:07:16.637:     - source: 'FinishLine' (decklink-input)
+12:07:16.637:     - source: 'CurrentEventText' (text_ft2_source)
+12:07:16.637:     - source: 'ResultsText' (text_ft2_source)
+12:07:16.637: - scene 'Scene BackSide':
+12:07:16.637:     - source: 'FinishLine' (decklink-input)
+12:07:16.637:     - source: 'TurnSwitch' (decklink-input)
+12:07:16.637:     - source: 'Turn3' (decklink-input)
+12:07:16.637:     - source: 'Turns 3 & 4' (text_ft2_source)
+12:07:16.637:     - source: 'Turn1' (decklink-input)
+12:07:16.637:         - filter: 'Crop/Pad' (crop_filter)
+12:07:16.637:     - source: 'Back-Turn3' (text_ft2_source)
+12:07:16.637:     - source: 'LapsText' (text_ft2_source)
+12:07:16.637:     - source: 'CurrentEventText' (text_ft2_source)
+12:07:16.637:     - source: 'SponsorText' (text_ft2_source)
+12:07:16.637:     - source: 'ResultsText' (text_ft2_source)
+12:07:16.637: - scene 'SceneSwitch':
+12:07:16.637:     - source: 'TurnSwitch' (decklink-input)
+12:07:16.637:     - source: 'Turn3' (decklink-input)
+12:07:16.637:     - source: 'Turn1' (decklink-input)
+12:07:16.637:         - filter: 'Crop/Pad' (crop_filter)
+12:07:16.637:     - source: 'FinishLine' (decklink-input)
+12:07:16.637:     - source: 'TextScrillongResults' (window_capture)
+12:07:16.637:         - filter: 'Crop' (crop_filter)
+12:07:16.637:         - filter: 'Color Key' (color_key_filter)
+12:07:16.637:     - source: 'Finshline - Turn1' (text_ft2_source)
+12:07:16.637:     - source: 'CurrentEventText' (text_ft2_source)
+12:07:16.637:     - source: 'LapsText' (text_ft2_source)
+12:07:16.637:     - source: 'SponsorText' (text_ft2_source)
+12:07:16.637:     - source: 'ResultsText' (text_ft2_source)
+12:07:16.637: - scene '4CamTestScreen':
+12:07:16.637:     - source: 'FinishLine' (decklink-input)
+12:07:16.637:     - source: 'TurnSwitch' (decklink-input)
+12:07:16.637:     - source: 'Turn3' (decklink-input)
+12:07:16.637:     - source: 'Turn1' (decklink-input)
+12:07:16.637:         - filter: 'Crop/Pad' (crop_filter)
+12:07:16.637: - scene 'Scene Front Side':
+12:07:16.637:     - source: 'TurnSwitch' (decklink-input)
+12:07:16.637:     - source: 'Turns 3 & 4' (text_ft2_source)
+12:07:16.637:     - source: 'Turn1' (decklink-input)
+12:07:16.637:         - filter: 'Crop/Pad' (crop_filter)
+12:07:16.637:     - source: 'Back-Turn3' (text_ft2_source)
+12:07:16.637:     - source: 'SponsorText' (text_ft2_source)
+12:07:16.637:     - source: 'Turn3' (decklink-input)
+12:07:16.637:     - source: 'FinishLine' (decklink-input)
+12:07:16.637:     - source: 'CurrentEventText' (text_ft2_source)
+12:07:16.637:     - source: 'LapsText' (text_ft2_source)
+12:07:16.637:     - source: 'ResultsText' (text_ft2_source)
+12:07:16.637: ------------------------------------------------
+12:07:25.503: User switched to scene '4CamTestScreen'
+12:07:25.503: [obs-websocket] preview layout children count : 3
+12:14:35.102: [obs-websocket] new client connection from ::ffff:10.1.10.100:53578
+12:15:26.463: User switched to scene 'SceneTurn1FinishLine'
+12:15:26.464: [obs-websocket] preview layout children count : 3
+12:28:12.657: User switched to scene 'Scene Split'
+12:28:12.658: [obs-websocket] preview layout children count : 3
+12:28:19.769: [obs-websocket] transition begin
+12:28:20.135: User switched to scene 'Scene Front Side'
+12:37:03.603: User switched to scene '4CamTestScreen'
+12:37:03.603: [obs-websocket] preview layout children count : 3
+12:48:33.900: User switched to scene 'SceneTurn1FinishLine'
+12:48:33.901: [obs-websocket] preview layout children count : 3
+13:22:10.790: adding 23 milliseconds of audio buffering, total audio buffering is now 185 milliseconds
+13:23:07.292: adding 23 milliseconds of audio buffering, total audio buffering is now 208 milliseconds
+13:23:09.136: adding 23 milliseconds of audio buffering, total audio buffering is now 232 milliseconds
+13:23:09.363: adding 23 milliseconds of audio buffering, total audio buffering is now 255 milliseconds
+13:30:08.414: User switched to scene '4CamTestScreen'
+13:30:08.414: [obs-websocket] preview layout children count : 3
+14:06:24.718: User switched to scene 'SceneSwitch'
+14:06:24.718: [obs-websocket] preview layout children count : 3
+14:08:24.748: Source 'SceneSwitch' renamed to 'Scene FinishResults'
+14:11:26.791: [obs-websocket] transition begin
+14:11:27.181: User switched to scene 'Scene Split'
+14:11:48.476: [obs-websocket] transition begin
+14:11:48.825: User switched to scene 'Scene FinishResults'
+14:13:28.234: WASAPI: Device 'Microphone (3- Logitech G930 Gaming Headset)' initialized
+14:13:42.896: WASAPI: Device 'Microphone (3- Logitech G930 Gaming Headset)' Terminated
+14:13:43.027: WASAPI: Device 'Mic in at rear panel (Pink) (Realtek High Definition Audio)' initialized
+14:15:30.878: WASAPI: Device 'Mic in at rear panel (Pink) (Realtek High Definition Audio)' Terminated
+14:15:30.899: WASAPI: Device 'Microphone (3- Logitech G930 Gaming Headset)' initialized
+14:16:53.423: ---------------------------------
+14:16:53.423: [x264 encoder: 'simple_h264_stream'] preset: fast
+14:16:53.445: [x264 encoder: 'simple_h264_stream'] settings:
+14:16:53.445: 	rate_control: CBR
+14:16:53.445: 	bitrate:      2500
+14:16:53.445: 	buffer size:  2500
+14:16:53.445: 	crf:          0
+14:16:53.445: 	fps_num:      30
+14:16:53.445: 	fps_den:      1
+14:16:53.445: 	width:        1280
+14:16:53.445: 	height:       720
+14:16:53.445: 	keyint:       120
+14:16:53.445: 	vfr:          off
+14:16:53.445: 
+14:16:53.445: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+14:16:53.469: [CoreAudio AAC: 'simple_aac']: settings:
+14:16:53.469: 	mode:          AAC
+14:16:53.469: 	bitrate:       160
+14:16:53.469: 	sample rate:   44100
+14:16:53.469: 	cbr:           on
+14:16:53.469: 	output buffer: 1536
+14:16:53.470: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+14:16:53.516: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+14:16:53.718: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 successful
+14:16:53.721: ==== Streaming Start ===============================================
+14:20:16.377: User switched to scene 'SceneTurn1FinishLine'
+14:20:16.377: [obs-websocket] preview layout children count : 3
+14:20:19.261: User switched to scene 'Scene Split'
+14:20:19.261: [obs-websocket] preview layout children count : 3
+14:21:45.429: User switched to scene 'Scene BackSide'
+14:21:45.429: [obs-websocket] preview layout children count : 3
+14:21:51.311: User switched to scene 'SceneTurn1FinishLine'
+14:21:51.311: [obs-websocket] preview layout children count : 3
+14:22:04.730: [obs-websocket] transition begin
+14:22:05.093: User switched to scene 'Scene Split'
+14:22:29.370: [obs-websocket] transition begin
+14:22:29.734: User switched to scene 'SceneTurn1FinishLine'
+14:22:55.240: [obs-websocket] transition begin
+14:22:55.587: User switched to scene 'Scene Split'
+14:23:02.050: [obs-websocket] transition begin
+14:23:02.402: User switched to scene 'SceneTurn1FinishLine'
+14:23:26.940: ==== Recording Start ===============================================
+14:23:26.940: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_14-23-26.flv'...
+14:24:03.657: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_14-23-26.flv' stopped
+14:24:03.657: Output 'simple_file_output': stopping
+14:24:03.657: Output 'simple_file_output': Total encoded frames: 1101
+14:24:03.657: Output 'simple_file_output': Total drawn frames: 1102
+14:24:03.658: ==== Recording Stop ================================================
+14:25:26.070: WriteN, RTMP send error 10054 (470 bytes)
+14:25:26.070: WriteN, RTMP send error 10054 (54 bytes)
+14:25:26.070: WriteN, RTMP send error 10038 (42 bytes)
+14:25:26.070: [rtmp stream: 'simple_stream'] Disconnected from rtmp://a.rtmp.youtube.com/live2
+14:25:26.070: Output 'simple_stream': stopping
+14:25:26.070: Output 'simple_stream': Total encoded frames: 15378
+14:25:26.070: Output 'simple_stream': Total drawn frames: 15378
+14:25:26.070: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 66 (0.4%)
+14:25:26.070: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 182 (1.2%)
+14:25:26.071: [rtmp stream: 'simple_stream'] Freeing 15611 remaining packets
+14:25:26.075: ==== Streaming Stop ================================================
+14:25:43.618: ---------------------------------
+14:25:43.618: [x264 encoder: 'simple_h264_stream'] preset: fast
+14:25:43.618: [x264 encoder: 'simple_h264_stream'] settings:
+14:25:43.618: 	rate_control: CBR
+14:25:43.618: 	bitrate:      2500
+14:25:43.618: 	buffer size:  2500
+14:25:43.618: 	crf:          0
+14:25:43.618: 	fps_num:      30
+14:25:43.618: 	fps_den:      1
+14:25:43.618: 	width:        1280
+14:25:43.618: 	height:       720
+14:25:43.618: 	keyint:       120
+14:25:43.618: 	vfr:          off
+14:25:43.618: 
+14:25:43.618: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+14:25:43.626: [CoreAudio AAC: 'simple_aac']: settings:
+14:25:43.626: 	mode:          AAC
+14:25:43.626: 	bitrate:       160
+14:25:43.626: 	sample rate:   44100
+14:25:43.626: 	cbr:           on
+14:25:43.626: 	output buffer: 1536
+14:25:43.627: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+14:25:43.628: Could not resolve a.rtmp.youtube.com: No such host is known.  (11001)
+14:25:43.628: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 failed: -2
+14:25:43.640: ==== Streaming Stop ================================================
+14:28:36.302: User switched to scene '4CamTestScreen'
+14:28:36.302: [obs-websocket] preview layout children count : 3
+14:28:36.361: [obs-websocket] client ::ffff:10.1.10.100:53578 disconnected
+14:28:36.654: Failed to open file //10.1.10.100/c$/nginx-rtmp/www/CurrentEvent.txt
+14:28:40.927: User switched to scene 'SceneTurn1FinishLine'
+14:28:40.927: [obs-websocket] preview layout children count : 3
+14:30:43.866: ---------------------------------
+14:30:43.866: [x264 encoder: 'simple_h264_stream'] settings:
+14:30:43.866: 	rate_control: CBR
+14:30:43.866: 	bitrate:      2500
+14:30:43.866: 	buffer size:  2500
+14:30:43.866: 	crf:          0
+14:30:43.866: 	fps_num:      30
+14:30:43.866: 	fps_den:      1
+14:30:43.866: 	width:        1280
+14:30:43.866: 	height:       720
+14:30:43.866: 	keyint:       120
+14:30:43.866: 	vfr:          off
+14:30:43.866: 
+14:30:43.866: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+14:30:43.867: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+14:30:43.925: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+14:30:44.146: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 successful
+14:30:44.149: ==== Streaming Start ===============================================
+14:38:47.907: [obs-websocket] new client connection from ::ffff:10.1.10.105:55298
+14:42:11.280: User switched to scene 'Scene FinishResults'
+14:42:11.280: [obs-websocket] preview layout children count : 3
+14:42:16.028: User switched to scene 'Scene BackSide'
+14:42:16.028: [obs-websocket] preview layout children count : 3
+14:42:17.656: User switched to scene 'Scene Front Side'
+14:42:17.656: [obs-websocket] preview layout children count : 3
+14:42:26.654: [obs-websocket] preview layout children count : 3
+14:42:26.655: [obs-websocket] preview layout children count : 3
+14:42:31.232: [obs-websocket] preview layout children count : 3
+14:42:31.234: [obs-websocket] preview layout children count : 3
+14:42:32.912: User switched to scene 'SceneTurn1FinishLine'
+14:42:32.912: [obs-websocket] preview layout children count : 3
+14:42:34.824: User switched to scene 'Scene Front Side'
+14:42:34.824: [obs-websocket] preview layout children count : 3
+14:42:37.479: User switched to scene 'SceneTurn1FinishLine'
+14:42:37.479: [obs-websocket] preview layout children count : 3
+14:42:39.492: User switched to scene 'Scene BackSide'
+14:42:39.492: [obs-websocket] preview layout children count : 3
+14:42:45.929: [obs-websocket] preview layout children count : 3
+14:42:45.930: [obs-websocket] preview layout children count : 3
+14:42:47.298: User switched to scene 'Scene Split'
+14:42:47.298: [obs-websocket] preview layout children count : 3
+14:42:50.053: User switched to scene 'Scene BackSide'
+14:42:50.053: [obs-websocket] preview layout children count : 3
+14:42:52.828: User switched to scene 'Scene Split'
+14:42:52.828: [obs-websocket] preview layout children count : 3
+14:42:55.418: User switched to scene 'Scene FinishResults'
+14:42:55.418: [obs-websocket] preview layout children count : 3
+14:42:56.702: User switched to scene '4CamTestScreen'
+14:42:56.702: [obs-websocket] preview layout children count : 3
+14:42:59.705: User switched to scene 'Scene BackSide'
+14:42:59.705: [obs-websocket] preview layout children count : 3
+14:44:15.892: User switched to scene 'Scene Split'
+14:44:15.892: [obs-websocket] preview layout children count : 3
+14:44:27.419: User switched to scene 'Scene BackSide'
+14:44:27.419: [obs-websocket] preview layout children count : 3
+14:44:29.945: User switched to scene 'SceneTurn1FinishLine'
+14:44:29.945: [obs-websocket] preview layout children count : 3
+14:54:58.075: [rtmp stream: 'simple_stream'] User stopped the stream
+14:54:58.076: Output 'simple_stream': stopping
+14:54:58.076: Output 'simple_stream': Total encoded frames: 43627
+14:54:58.076: Output 'simple_stream': Total drawn frames: 43626
+14:54:58.076: Output 'simple_stream': Number of skipped frames due to encoding lag: 105 (0.2%)
+14:54:58.076: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 748 (1.7%)
+14:54:58.076: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 2443 (5.6%)
+14:54:58.080: ==== Streaming Stop ================================================
+14:55:06.562: User switched to scene 'Scene Split'
+14:55:06.592: Switched to regular Preview mode
+14:55:06.592: ------------------------------------------------
+14:56:15.652: ---------------------------------
+14:56:15.652: video settings reset:
+14:56:15.652: 	base resolution:   1920x1080
+14:56:15.652: 	output resolution: 1280x720
+14:56:15.652: 	downscale filter:  Bicubic
+14:56:15.652: 	fps:               30/1
+14:56:15.652: 	format:            NV12
+14:56:15.666: Settings changed (outputs, video)
+14:56:15.666: ------------------------------------------------
+14:56:20.058: ---------------------------------
+14:56:20.058: [x264 encoder: 'simple_h264_stream'] preset: fast
+14:56:20.058: [x264 encoder: 'simple_h264_stream'] settings:
+14:56:20.058: 	rate_control: CBR
+14:56:20.058: 	bitrate:      6000
+14:56:20.058: 	buffer size:  6000
+14:56:20.058: 	crf:          0
+14:56:20.058: 	fps_num:      30
+14:56:20.058: 	fps_den:      1
+14:56:20.058: 	width:        1280
+14:56:20.058: 	height:       720
+14:56:20.058: 	keyint:       120
+14:56:20.058: 	vfr:          off
+14:56:20.058: 
+14:56:20.058: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+14:56:20.066: [CoreAudio AAC: 'simple_aac']: settings:
+14:56:20.066: 	mode:          AAC
+14:56:20.066: 	bitrate:       160
+14:56:20.066: 	sample rate:   44100
+14:56:20.066: 	cbr:           on
+14:56:20.066: 	output buffer: 1536
+14:56:20.066: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+14:56:20.113: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+14:56:20.328: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 successful
+14:56:20.331: ==== Streaming Start ===============================================
+14:58:50.507: Last log entry repeated for 28 more lines
+14:58:50.507: [rtmp stream: 'simple_stream'] User stopped the stream
+14:58:50.507: Output 'simple_stream': stopping
+14:58:50.507: Output 'simple_stream': Total encoded frames: 0
+14:58:50.507: Output 'simple_stream': Total drawn frames: 4513
+14:58:50.510: ==== Streaming Stop ================================================
+14:59:02.679: Settings changed (outputs)
+14:59:02.679: ------------------------------------------------
+14:59:08.346: ---------------------------------
+14:59:08.346: [x264 encoder: 'simple_h264_stream'] preset: fast
+14:59:08.346: [x264 encoder: 'simple_h264_stream'] settings:
+14:59:08.346: 	rate_control: CBR
+14:59:08.346: 	bitrate:      4000
+14:59:08.346: 	buffer size:  4000
+14:59:08.346: 	crf:          0
+14:59:08.346: 	fps_num:      30
+14:59:08.346: 	fps_den:      1
+14:59:08.346: 	width:        1280
+14:59:08.346: 	height:       720
+14:59:08.346: 	keyint:       120
+14:59:08.346: 	vfr:          off
+14:59:08.346: 
+14:59:08.346: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+14:59:08.354: [CoreAudio AAC: 'simple_aac']: settings:
+14:59:08.354: 	mode:          AAC
+14:59:08.354: 	bitrate:       160
+14:59:08.354: 	sample rate:   44100
+14:59:08.354: 	cbr:           on
+14:59:08.354: 	output buffer: 1536
+14:59:08.354: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+14:59:08.355: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+14:59:08.588: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 successful
+14:59:08.592: ==== Streaming Start ===============================================
+15:01:54.874: [rtmp stream: 'simple_stream'] User stopped the stream
+15:01:54.874: Output 'simple_stream': stopping
+15:01:54.874: Output 'simple_stream': Total encoded frames: 4996
+15:01:54.874: Output 'simple_stream': Total drawn frames: 4995
+15:01:54.874: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 1268 (25.4%)
+15:01:54.877: ==== Streaming Stop ================================================
+15:02:25.661: Settings changed (stream 1)
+15:02:25.662: ------------------------------------------------
+15:02:31.007: ---------------------------------
+15:02:31.007: [x264 encoder: 'simple_h264_stream'] preset: fast
+15:02:31.007: [x264 encoder: 'simple_h264_stream'] settings:
+15:02:31.007: 	rate_control: CBR
+15:02:31.007: 	bitrate:      4000
+15:02:31.007: 	buffer size:  4000
+15:02:31.007: 	crf:          0
+15:02:31.007: 	fps_num:      30
+15:02:31.007: 	fps_den:      1
+15:02:31.007: 	width:        1280
+15:02:31.007: 	height:       720
+15:02:31.007: 	keyint:       120
+15:02:31.007: 	vfr:          off
+15:02:31.007: 
+15:02:31.007: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+15:02:31.015: [CoreAudio AAC: 'simple_aac']: settings:
+15:02:31.015: 	mode:          AAC
+15:02:31.015: 	bitrate:       160
+15:02:31.015: 	sample rate:   44100
+15:02:31.015: 	cbr:           on
+15:02:31.015: 	output buffer: 1536
+15:02:31.015: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+15:02:31.063: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+15:02:31.270: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 successful
+15:02:31.274: ==== Streaming Start ===============================================
+15:09:30.633: Last log entry repeated for 139 more lines
+15:09:30.633: WASAPI: Device 'Microphone (3- Logitech G930 Gaming Headset)' Terminated
+15:09:30.652: WASAPI: Device 'Mic in at rear panel (Pink) (Realtek High Definition Audio)' initialized
+15:13:13.295: ==== Recording Start ===============================================
+15:13:13.295: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_15-13-13.flv'...
+15:16:02.841: Switched to Preview/Program mode
+15:16:02.841: ------------------------------------------------
+15:17:08.426: Failed to open file //10.1.10.105/c$/nginx-rtmp/www/laps.html
+15:19:13.833: [obs-websocket] client ::ffff:10.1.10.105:55298 disconnected
+15:19:15.081: [obs-websocket] new client connection from ::ffff:10.1.10.105:55825
+15:30:21.648: Last log entry repeated for 49 more lines
+15:30:21.648: [rtmp stream: 'simple_stream'] User stopped the stream
+15:30:21.659: Output 'simple_stream': stopping
+15:30:21.659: Output 'simple_stream': Total encoded frames: 50119
+15:30:21.659: Output 'simple_stream': Total drawn frames: 50120
+15:30:21.659: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 14 (0.0%)
+15:30:21.659: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 15418 (30.8%)
+15:30:21.659: [rtmp stream: 'simple_stream'] Freeing 3517 remaining packets
+15:30:21.659: ==== Streaming Stop ================================================
+15:31:39.911: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_15-13-13.flv' stopped
+15:31:39.911: Output 'simple_file_output': stopping
+15:31:39.911: Output 'simple_file_output': Total encoded frames: 33198
+15:31:39.911: Output 'simple_file_output': Total drawn frames: 33198
+15:31:39.911: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 6 (0.0%)
+15:31:39.911: ==== Recording Stop ================================================
+15:31:53.266: Settings changed (stream 1)
+15:31:53.266: ------------------------------------------------
+15:32:01.540: ---------------------------------
+15:32:01.540: [x264 encoder: 'simple_h264_stream'] preset: fast
+15:32:01.540: [x264 encoder: 'simple_h264_stream'] settings:
+15:32:01.540: 	rate_control: CBR
+15:32:01.540: 	bitrate:      4000
+15:32:01.540: 	buffer size:  4000
+15:32:01.540: 	crf:          0
+15:32:01.540: 	fps_num:      30
+15:32:01.540: 	fps_den:      1
+15:32:01.540: 	width:        1280
+15:32:01.540: 	height:       720
+15:32:01.540: 	keyint:       120
+15:32:01.540: 	vfr:          off
+15:32:01.540: 
+15:32:01.540: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+15:32:01.548: [CoreAudio AAC: 'simple_aac']: settings:
+15:32:01.548: 	mode:          AAC
+15:32:01.548: 	bitrate:       160
+15:32:01.548: 	sample rate:   44100
+15:32:01.548: 	cbr:           on
+15:32:01.548: 	output buffer: 1536
+15:32:01.549: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+15:32:01.608: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+15:32:01.976: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+15:32:01.979: ==== Streaming Start ===============================================
+15:37:39.061: Last log entry repeated for 268 more lines
+15:37:39.061: ==== Recording Start ===============================================
+15:37:39.061: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_15-37-39.flv'...
+15:42:59.342: Last log entry repeated for 254 more lines
+15:42:59.342: [rtmp stream: 'simple_stream'] User stopped the stream
+15:42:59.342: Output 'simple_stream': stopping
+15:42:59.342: Output 'simple_stream': Total encoded frames: 19734
+15:42:59.343: Output 'simple_stream': Total drawn frames: 19734
+15:42:59.343: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 5 (0.0%)
+15:42:59.343: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 7074 (35.8%)
+15:42:59.343: [rtmp stream: 'simple_stream'] Freeing 43 remaining packets
+15:42:59.343: ==== Streaming Stop ================================================
+15:43:03.495: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_15-37-39.flv' stopped
+15:43:03.495: Output 'simple_file_output': stopping
+15:43:03.495: Output 'simple_file_output': Total encoded frames: 9732
+15:43:03.495: Output 'simple_file_output': Total drawn frames: 9733
+15:43:03.495: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0.0%)
+15:43:03.495: ==== Recording Stop ================================================
+15:43:42.853: Settings changed (outputs)
+15:43:42.853: ------------------------------------------------
+15:44:21.291: Settings changed (general)
+15:44:21.291: ------------------------------------------------
+15:44:24.117: ---------------------------------
+15:44:24.117: [x264 encoder: 'simple_h264_stream'] preset: fast
+15:44:24.117: [x264 encoder: 'simple_h264_stream'] settings:
+15:44:24.117: 	rate_control: CBR
+15:44:24.117: 	bitrate:      6000
+15:44:24.117: 	buffer size:  6000
+15:44:24.117: 	crf:          0
+15:44:24.117: 	fps_num:      30
+15:44:24.117: 	fps_den:      1
+15:44:24.117: 	width:        1280
+15:44:24.117: 	height:       720
+15:44:24.117: 	keyint:       60
+15:44:24.117: 	vfr:          off
+15:44:24.117: 
+15:44:24.117: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=60
+15:44:24.124: [CoreAudio AAC: 'simple_aac']: settings:
+15:44:24.124: 	mode:          AAC
+15:44:24.124: 	bitrate:       160
+15:44:24.124: 	sample rate:   44100
+15:44:24.124: 	cbr:           on
+15:44:24.124: 	output buffer: 1536
+15:44:24.125: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+15:44:24.203: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+15:44:24.608: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+15:44:24.612: ==== Streaming Start ===============================================
+15:44:26.884: ==== Recording Start ===============================================
+15:44:26.884: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_15-44-26.flv'...
+15:45:50.139: Last log entry repeated for 16 more lines
+15:45:50.139: [rtmp stream: 'simple_stream'] User stopped the stream
+15:45:50.139: Output 'simple_stream': stopping
+15:45:50.139: Output 'simple_stream': Total encoded frames: 2580
+15:45:50.139: Output 'simple_stream': Total drawn frames: 2580
+15:45:50.139: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 1324 (51.3%)
+15:45:50.139: ==== Streaming Stop ================================================
+15:45:50.925: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_15-44-26.flv' stopped
+15:45:50.925: Output 'simple_file_output': stopping
+15:45:50.925: Output 'simple_file_output': Total encoded frames: 2521
+15:45:50.925: Output 'simple_file_output': Total drawn frames: 2522
+15:45:50.925: ==== Recording Stop ================================================
+15:46:20.023: Settings changed (outputs)
+15:46:20.023: ------------------------------------------------
+15:46:28.238: Settings changed (outputs)
+15:46:28.238: ------------------------------------------------
+15:46:32.581: ---------------------------------
+15:46:32.581: [x264 encoder: 'simple_h264_stream'] preset: faster
+15:46:32.581: [x264 encoder: 'simple_h264_stream'] settings:
+15:46:32.581: 	rate_control: CBR
+15:46:32.581: 	bitrate:      5000
+15:46:32.581: 	buffer size:  5000
+15:46:32.581: 	crf:          0
+15:46:32.581: 	fps_num:      30
+15:46:32.581: 	fps_den:      1
+15:46:32.581: 	width:        1280
+15:46:32.581: 	height:       720
+15:46:32.581: 	keyint:       120
+15:46:32.581: 	vfr:          off
+15:46:32.581: 
+15:46:32.581: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+15:46:32.588: [CoreAudio AAC: 'simple_aac']: settings:
+15:46:32.588: 	mode:          AAC
+15:46:32.588: 	bitrate:       160
+15:46:32.588: 	sample rate:   44100
+15:46:32.588: 	cbr:           on
+15:46:32.588: 	output buffer: 1536
+15:46:32.589: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+15:46:32.589: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+15:46:32.938: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+15:46:32.941: ==== Streaming Start ===============================================
+15:46:34.576: ==== Recording Start ===============================================
+15:46:34.576: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_15-46-34.flv'...
+15:50:26.472: Last log entry repeated for 33 more lines
+15:50:26.472: adding 23 milliseconds of audio buffering, total audio buffering is now 278 milliseconds
+15:51:29.621: adding 23 milliseconds of audio buffering, total audio buffering is now 301 milliseconds
+15:51:34.837: adding 23 milliseconds of audio buffering, total audio buffering is now 325 milliseconds
+15:51:41.415: [obs-websocket] client ::ffff:10.1.10.105:55825 disconnected
+15:52:50.532: Failed to open file //10.1.10.105/c$/nginx-rtmp/www/CurrentEvent.txt
+15:53:00.210: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_15-46-34.flv' stopped
+15:53:00.210: Output 'simple_file_output': stopping
+15:53:00.210: Output 'simple_file_output': Total encoded frames: 10667
+15:53:00.210: Output 'simple_file_output': Total drawn frames: 11569
+15:53:00.210: Output 'simple_file_output': Number of skipped frames due to encoding lag: 277 (2.6%)
+15:53:00.210: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 2474 (21.4%)
+15:53:00.210: ==== Recording Stop ================================================
+15:56:21.106: Last log entry repeated for 27 more lines
+15:56:21.106: adding 23 milliseconds of audio buffering, total audio buffering is now 348 milliseconds
+16:03:28.775: Last log entry repeated for 92 more lines
+16:03:28.775: User switched to scene 'Scene BackSide'
+16:03:28.776: [obs-websocket] preview layout children count : 3
+16:03:33.871: User switched to scene 'SceneTurn1FinishLine'
+16:03:33.871: [obs-websocket] preview layout children count : 3
+16:03:35.625: User switched to scene 'Scene Front Side'
+16:03:35.625: [obs-websocket] preview layout children count : 3
+16:03:37.415: User switched to scene 'SceneTurn1FinishLine'
+16:03:37.416: [obs-websocket] preview layout children count : 3
+16:03:39.109: User switched to scene 'Scene Front Side'
+16:03:39.109: [obs-websocket] preview layout children count : 3
+16:03:40.377: User switched to scene 'SceneTurn1FinishLine'
+16:03:40.377: [obs-websocket] preview layout children count : 3
+16:03:41.645: User switched to scene 'Scene BackSide'
+16:03:41.645: [obs-websocket] preview layout children count : 3
+16:03:43.635: User switched to scene 'Scene Split'
+16:03:43.635: [obs-websocket] preview layout children count : 3
+16:04:28.903: ==== Recording Start ===============================================
+16:04:28.903: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_16-04-28.flv'...
+16:04:41.487: User switched to scene 'Scene Front Side'
+16:04:41.487: [obs-websocket] preview layout children count : 3
+16:04:45.265: User switched to scene 'SceneTurn1FinishLine'
+16:04:45.265: [obs-websocket] preview layout children count : 3
+16:04:49.670: User switched to scene 'Scene BackSide'
+16:04:49.670: [obs-websocket] preview layout children count : 3
+16:04:51.475: User switched to scene 'Scene Front Side'
+16:04:51.475: [obs-websocket] preview layout children count : 3
+16:12:58.439: Last log entry repeated for 102 more lines
+16:12:58.439: WriteN, RTMP send error 10054 (438 bytes)
+16:12:58.439: WriteN, RTMP send error 10054 (54 bytes)
+16:12:58.439: WriteN, RTMP send error 10038 (42 bytes)
+16:12:58.439: [rtmp stream: 'simple_stream'] Disconnected from rtmp://b.rtmp.youtube.com/live2?backup=1
+16:12:58.439: Output 'simple_stream': stopping
+16:12:58.439: Output 'simple_stream': Total encoded frames: 47575
+16:12:58.439: Output 'simple_stream': Total drawn frames: 47575
+16:12:58.439: Output 'simple_stream': Number of skipped frames due to encoding lag: 2015 (4.2%)
+16:12:58.439: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 11776 (24.8%)
+16:12:58.439: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 21933 (46.1%)
+16:12:58.439: Output 'simple_stream':  Reconnecting in 10 seconds..
+16:12:58.439: [rtmp stream: 'simple_stream'] Freeing 3890 remaining packets
+16:13:08.440: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:13:08.441: Could not resolve b.rtmp.youtube.com: No such host is known.  (11001)
+16:13:08.441: Output 'simple_stream':  Reconnecting in 10 seconds..
+16:13:08.441: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 failed: -2
+16:13:28.442: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:13:28.443: Could not resolve b.rtmp.youtube.com: No such host is known.  (11001)
+16:13:28.443: Output 'simple_stream':  Reconnecting in 10 seconds..
+16:13:28.443: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 failed: -2
+16:14:08.443: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:14:08.443: Could not resolve b.rtmp.youtube.com: No such host is known.  (11001)
+16:14:08.444: Output 'simple_stream':  Reconnecting in 10 seconds..
+16:14:08.444: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 failed: -2
+16:15:28.444: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:15:28.483: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+16:15:28.883: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+16:20:12.247: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_16-04-28.flv' stopped
+16:20:12.247: Output 'simple_file_output': stopping
+16:20:12.247: Output 'simple_file_output': Total encoded frames: 29133
+16:20:12.247: Output 'simple_file_output': Total drawn frames: 29133
+16:20:12.247: Output 'simple_file_output': Number of skipped frames due to encoding lag: 145 (0.5%)
+16:20:12.247: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 872 (3.0%)
+16:20:12.255: ==== Recording Stop ================================================
+16:20:22.118: ---------------------------------
+16:20:22.118: [x264 encoder: 'simple_h264_stream'] settings:
+16:20:22.118: 	rate_control: CBR
+16:20:22.118: 	bitrate:      5000
+16:20:22.118: 	buffer size:  5000
+16:20:22.118: 	crf:          0
+16:20:22.118: 	fps_num:      30
+16:20:22.118: 	fps_den:      1
+16:20:22.118: 	width:        1280
+16:20:22.118: 	height:       720
+16:20:22.118: 	keyint:       120
+16:20:22.118: 	vfr:          off
+16:20:22.118: 
+16:20:22.118: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:20:22.127: Settings changed (outputs)
+16:20:22.127: ------------------------------------------------
+16:20:34.609: ---------------------------------
+16:20:34.609: [x264 encoder: 'simple_h264_stream'] settings:
+16:20:34.609: 	rate_control: CBR
+16:20:34.609: 	bitrate:      5000
+16:20:34.609: 	buffer size:  5000
+16:20:34.609: 	crf:          0
+16:20:34.609: 	fps_num:      30
+16:20:34.609: 	fps_den:      1
+16:20:34.609: 	width:        1280
+16:20:34.609: 	height:       720
+16:20:34.609: 	keyint:       120
+16:20:34.609: 	vfr:          off
+16:20:34.609: 
+16:20:34.609: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:20:34.619: Settings changed (outputs)
+16:20:34.619: ------------------------------------------------
+16:20:37.319: [rtmp stream: 'simple_stream'] Stream shutdown timeout reached (30 second(s))
+16:20:37.319: [rtmp stream: 'simple_stream'] User stopped the stream
+16:20:37.319: Output 'simple_stream': stopping
+16:20:37.319: Output 'simple_stream': Total encoded frames: 9267
+16:20:37.319: Output 'simple_stream': Total drawn frames: 9266
+16:20:37.319: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 2 (0.0%)
+16:20:37.319: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 3871 (41.8%)
+16:20:37.319: [rtmp stream: 'simple_stream'] Freeing 3138 remaining packets
+16:20:37.323: ==== Streaming Stop ================================================
+16:21:02.427: ---------------------------------
+16:21:02.428: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+16:21:02.428: [x264 encoder: 'simple_h264_stream'] settings:
+16:21:02.428: 	rate_control: CBR
+16:21:02.428: 	bitrate:      5000
+16:21:02.428: 	buffer size:  5000
+16:21:02.428: 	crf:          0
+16:21:02.428: 	fps_num:      30
+16:21:02.428: 	fps_den:      1
+16:21:02.428: 	width:        1280
+16:21:02.428: 	height:       720
+16:21:02.428: 	keyint:       120
+16:21:02.428: 	vfr:          off
+16:21:02.428: 
+16:21:02.428: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:21:02.435: [CoreAudio AAC: 'simple_aac']: settings:
+16:21:02.435: 	mode:          AAC
+16:21:02.435: 	bitrate:       160
+16:21:02.435: 	sample rate:   44100
+16:21:02.435: 	cbr:           on
+16:21:02.435: 	output buffer: 1536
+16:21:02.436: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:21:02.477: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 100 mbps)
+16:21:02.877: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+16:21:02.880: ==== Streaming Start ===============================================
+16:21:03.919: ==== Recording Start ===============================================
+16:21:03.919: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_16-21-03.flv'...
+16:25:18.973: WriteN, RTMP send error 10054 (4097 bytes)
+16:25:18.973: WriteN, RTMP send error 10054 (54 bytes)
+16:25:18.973: WriteN, RTMP send error 10038 (42 bytes)
+16:25:18.973: [rtmp stream: 'simple_stream'] Disconnected from rtmp://b.rtmp.youtube.com/live2?backup=1
+16:25:18.973: Output 'simple_stream': stopping
+16:25:18.973: Output 'simple_stream': Total encoded frames: 7696
+16:25:18.973: Output 'simple_stream': Total drawn frames: 7696
+16:25:18.973: Output 'simple_stream': Number of skipped frames due to encoding lag: 229 (3.0%)
+16:25:18.973: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 1935 (25.1%)
+16:25:18.973: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 2213 (28.8%)
+16:25:18.973: Output 'simple_stream':  Reconnecting in 10 seconds..
+16:25:18.973: [rtmp stream: 'simple_stream'] Freeing 6502 remaining packets
+16:25:28.974: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:25:28.995: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 1000 mbps)
+16:25:29.334: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+16:39:24.583: Last log entry repeated for 5 more lines
+16:39:24.583: [rtmp stream: 'simple_stream'] User stopped the stream
+16:39:24.594: Output 'simple_stream': stopping
+16:39:24.594: Output 'simple_stream': Total encoded frames: 25069
+16:39:24.594: Output 'simple_stream': Total drawn frames: 25069
+16:39:24.594: Output 'simple_stream': Number of skipped frames due to encoding lag: 1132 (4.5%)
+16:39:24.594: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 8775 (35.0%)
+16:39:24.594: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 10061 (40.1%)
+16:39:24.594: [rtmp stream: 'simple_stream'] Freeing 4386 remaining packets
+16:39:24.595: ==== Streaming Stop ================================================
+16:39:33.186: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:39:33.203: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 1000 mbps)
+16:39:33.537: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+16:39:33.545: ==== Streaming Start ===============================================
+16:40:22.513: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_16-21-03.flv' stopped
+16:40:22.513: Output 'simple_file_output': stopping
+16:40:22.513: Output 'simple_file_output': Total encoded frames: 34757
+16:40:22.513: Output 'simple_file_output': Total drawn frames: 34758
+16:40:22.513: Output 'simple_file_output': Number of skipped frames due to encoding lag: 1436 (4.1%)
+16:40:22.513: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 11340 (32.6%)
+16:40:22.513: ==== Recording Stop ================================================
+16:40:35.165: [rtmp stream: 'simple_stream'] User stopped the stream
+16:40:35.177: Output 'simple_stream': stopping
+16:40:35.177: Output 'simple_stream': Total encoded frames: 1774
+16:40:35.177: Output 'simple_stream': Total drawn frames: 1775
+16:40:35.177: Output 'simple_stream': Number of skipped frames due to encoding lag: 75 (4.2%)
+16:40:35.177: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 630 (35.5%)
+16:40:35.177: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 584 (32.9%)
+16:40:35.177: [rtmp stream: 'simple_stream'] Freeing 459 remaining packets
+16:40:35.181: ==== Streaming Stop ================================================
+16:41:18.596: ---------------------------------
+16:41:18.596: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+16:41:18.596: [x264 encoder: 'simple_h264_stream'] settings:
+16:41:18.596: 	rate_control: CBR
+16:41:18.596: 	bitrate:      5000
+16:41:18.596: 	buffer size:  5000
+16:41:18.596: 	crf:          0
+16:41:18.596: 	fps_num:      30
+16:41:18.596: 	fps_den:      1
+16:41:18.596: 	width:        1280
+16:41:18.596: 	height:       720
+16:41:18.596: 	keyint:       120
+16:41:18.596: 	vfr:          off
+16:41:18.596: 
+16:41:18.596: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:41:18.604: [CoreAudio AAC: 'simple_aac']: settings:
+16:41:18.604: 	mode:          AAC
+16:41:18.604: 	bitrate:       160
+16:41:18.604: 	sample rate:   44100
+16:41:18.604: 	cbr:           on
+16:41:18.604: 	output buffer: 1536
+16:41:18.604: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:41:18.604: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 1000 mbps)
+16:41:18.944: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+16:41:18.948: ==== Streaming Start ===============================================
+16:41:19.657: ==== Recording Start ===============================================
+16:41:19.657: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_16-41-19.flv'...
+16:43:50.166: ---------------------------------
+16:43:50.166: [x264 encoder: 'simple_h264_stream'] settings:
+16:43:50.166: 	rate_control: CBR
+16:43:50.166: 	bitrate:      2500
+16:43:50.166: 	buffer size:  2500
+16:43:50.166: 	crf:          0
+16:43:50.166: 	fps_num:      30
+16:43:50.166: 	fps_den:      1
+16:43:50.166: 	width:        1280
+16:43:50.166: 	height:       720
+16:43:50.166: 	keyint:       120
+16:43:50.166: 	vfr:          off
+16:43:50.166: 
+16:43:50.166: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:43:50.176: Settings changed (outputs)
+16:43:50.176: ------------------------------------------------
+16:44:55.616: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_16-41-19.flv' stopped
+16:44:55.616: Output 'simple_file_output': stopping
+16:44:55.616: Output 'simple_file_output': Total encoded frames: 6357
+16:44:55.616: Output 'simple_file_output': Total drawn frames: 6357
+16:44:55.616: Output 'simple_file_output': Number of skipped frames due to encoding lag: 290 (4.6%)
+16:44:55.616: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 2553 (40.2%)
+16:44:55.616: ==== Recording Stop ================================================
+16:45:00.752: [rtmp stream: 'simple_stream'] User stopped the stream
+16:45:00.752: Output 'simple_stream': stopping
+16:45:00.752: Output 'simple_stream': Total encoded frames: 6665
+16:45:00.752: Output 'simple_stream': Total drawn frames: 6664
+16:45:00.752: Output 'simple_stream': Number of skipped frames due to encoding lag: 302 (4.5%)
+16:45:00.752: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 2741 (41.1%)
+16:45:00.752: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 2936 (44.1%)
+16:45:00.752: [rtmp stream: 'simple_stream'] Freeing 488 remaining packets
+16:45:00.757: ==== Streaming Stop ================================================
+16:45:53.355: ---------------------------------
+16:45:53.355: video settings reset:
+16:45:53.355: 	base resolution:   1920x1080
+16:45:53.355: 	output resolution: 852x480
+16:45:53.355: 	downscale filter:  Bicubic
+16:45:53.355: 	fps:               30/1
+16:45:53.355: 	format:            NV12
+16:45:53.365: Settings changed (video)
+16:45:53.365: ------------------------------------------------
+16:46:11.078: ---------------------------------
+16:46:11.078: [x264 encoder: 'simple_h264_stream'] preset: superfast
+16:46:11.078: [x264 encoder: 'simple_h264_stream'] settings:
+16:46:11.078: 	rate_control: CBR
+16:46:11.078: 	bitrate:      2500
+16:46:11.078: 	buffer size:  2500
+16:46:11.078: 	crf:          0
+16:46:11.078: 	fps_num:      30
+16:46:11.078: 	fps_den:      1
+16:46:11.078: 	width:        852
+16:46:11.078: 	height:       480
+16:46:11.078: 	keyint:       120
+16:46:11.078: 	vfr:          off
+16:46:11.078: 
+16:46:11.079: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:46:11.086: [CoreAudio AAC: 'simple_aac']: settings:
+16:46:11.086: 	mode:          AAC
+16:46:11.086: 	bitrate:       160
+16:46:11.086: 	sample rate:   44100
+16:46:11.086: 	cbr:           on
+16:46:11.086: 	output buffer: 1536
+16:46:11.086: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+16:46:11.104: [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 1000 mbps)
+16:46:11.434: [rtmp stream: 'simple_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 successful
+16:46:11.437: ==== Streaming Start ===============================================
+16:46:12.271: ==== Recording Start ===============================================
+16:46:12.271: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/pantonvich/Videos/2017-05-06_16-46-12.flv'...
+16:49:24.104: [obs-websocket] new client connection from ::ffff:10.1.10.105:37378
+16:54:19.874: ---------------------------------
+16:54:19.874: [x264 encoder: 'simple_h264_stream'] settings:
+16:54:19.874: 	rate_control: CBR
+16:54:19.874: 	bitrate:      3500
+16:54:19.874: 	buffer size:  3500
+16:54:19.874: 	crf:          0
+16:54:19.874: 	fps_num:      30
+16:54:19.874: 	fps_den:      1
+16:54:19.874: 	width:        852
+16:54:19.874: 	height:       480
+16:54:19.874: 	keyint:       120
+16:54:19.874: 	vfr:          off
+16:54:19.874: 
+16:54:19.874: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:54:19.883: Settings changed (outputs)
+16:54:19.883: ------------------------------------------------
+16:54:50.174: ---------------------------------
+16:54:50.174: [x264 encoder: 'simple_h264_stream'] settings:
+16:54:50.174: 	rate_control: CBR
+16:54:50.174: 	bitrate:      5000
+16:54:50.174: 	buffer size:  5000
+16:54:50.174: 	crf:          0
+16:54:50.174: 	fps_num:      30
+16:54:50.174: 	fps_den:      1
+16:54:50.174: 	width:        852
+16:54:50.174: 	height:       480
+16:54:50.174: 	keyint:       120
+16:54:50.174: 	vfr:          off
+16:54:50.174: 
+16:54:50.174: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:54:50.183: Settings changed (outputs)
+16:54:50.183: ------------------------------------------------
+16:55:11.314: ---------------------------------
+16:55:11.314: [x264 encoder: 'simple_h264_stream'] settings:
+16:55:11.314: 	rate_control: CBR
+16:55:11.314: 	bitrate:      4000
+16:55:11.314: 	buffer size:  4000
+16:55:11.314: 	crf:          0
+16:55:11.314: 	fps_num:      30
+16:55:11.314: 	fps_den:      1
+16:55:11.314: 	width:        852
+16:55:11.314: 	height:       480
+16:55:11.314: 	keyint:       120
+16:55:11.314: 	vfr:          off
+16:55:11.314: 
+16:55:11.314: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:55:11.323: Settings changed (outputs)
+16:55:11.323: ------------------------------------------------
+16:55:36.749: ---------------------------------
+16:55:36.749: [x264 encoder: 'simple_h264_stream'] settings:
+16:55:36.749: 	rate_control: CBR
+16:55:36.749: 	bitrate:      3500
+16:55:36.749: 	buffer size:  3500
+16:55:36.749: 	crf:          0
+16:55:36.749: 	fps_num:      30
+16:55:36.749: 	fps_den:      1
+16:55:36.749: 	width:        852
+16:55:36.749: 	height:       480
+16:55:36.749: 	keyint:       120
+16:55:36.749: 	vfr:          off
+16:55:36.749: 
+16:55:36.749: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:55:36.752: Settings changed (outputs)
+16:55:36.752: ------------------------------------------------
+16:56:50.490: ---------------------------------
+16:56:50.490: [x264 encoder: 'simple_h264_stream'] settings:
+16:56:50.490: 	rate_control: CBR
+16:56:50.490: 	bitrate:      3000
+16:56:50.490: 	buffer size:  3000
+16:56:50.490: 	crf:          0
+16:56:50.490: 	fps_num:      30
+16:56:50.490: 	fps_den:      1
+16:56:50.490: 	width:        852
+16:56:50.490: 	height:       480
+16:56:50.490: 	keyint:       120
+16:56:50.490: 	vfr:          off
+16:56:50.490: 
+16:56:50.490: [x264 encoder: 'simple_h264_stream'] custom settings: keyint=120
+16:56:50.499: Settings changed (outputs)
+16:56:50.499: ------------------------------------------------
+17:04:54.287: User switched to scene 'Scene FinishResults'
+17:04:54.288: [obs-websocket] preview layout children count : 3
+17:05:01.262: User switched to scene 'Scene Front Side'
+17:05:01.262: [obs-websocket] preview layout children count : 3
+17:15:16.291: Device 'Speakers (3- Logitech G930 Gaming Headset)' invalidated.  Retrying
+17:15:19.308: WASAPI: Device 'Speakers (4- Blackmagic Audio)' initialized
+17:29:43.090: User added filter 'Noise Suppression' (noise_suppress_filter) to source 'Mic/Aux'
+18:14:54.232: User switched to scene 'Scene FinishResults'
+18:14:54.233: [obs-websocket] preview layout children count : 3
+18:26:08.353: User switched to scene 'SceneTurn1FinishLine'
+18:26:08.354: [obs-websocket] preview layout children count : 3
+18:26:10.574: [obs-websocket] transition begin
+18:26:10.925: User switched to scene 'Scene Split'
+18:26:54.271: User removed filter 'Noise Suppression' (noise_suppress_filter) from source 'Mic/Aux'
+18:27:02.116: User removed filter 'Noise Gate' (noise_gate_filter) from source 'Mic/Aux'
+18:29:29.656: User switched to scene 'Scene Front Side'
+18:29:29.656: [obs-websocket] preview layout children count : 3
+18:29:46.001: [obs-websocket] transition begin
+18:29:46.349: User switched to scene 'SceneTurn1FinishLine'
+18:29:48.816: User switched to scene 'Scene Front Side'
+18:29:48.816: [obs-websocket] preview layout children count : 3
+18:29:52.496: User switched to scene 'SceneTurn1FinishLine'
+18:29:52.496: [obs-websocket] preview layout children count : 3
+18:29:56.002: User switched to scene 'Scene Front Side'
+18:29:56.002: [obs-websocket] preview layout children count : 3
+18:29:58.883: User switched to scene 'SceneTurn1FinishLine'
+18:29:58.884: [obs-websocket] preview layout children count : 3
+18:30:00.922: User switched to scene 'Scene FinishResults'
+18:30:00.922: [obs-websocket] preview layout children count : 3
+18:30:03.026: User switched to scene 'Scene Front Side'
+18:30:03.026: [obs-websocket] preview layout children count : 3
+18:33:44.631: User switched to scene 'Scene BackSide'
+18:33:44.631: [obs-websocket] preview layout children count : 3
+18:33:46.283: [obs-websocket] transition begin
+18:33:46.659: User switched to scene 'Scene Front Side'
+18:33:55.648: [obs-websocket] transition begin
+18:33:56.027: User switched to scene 'Scene BackSide'
+18:34:08.516: User switched to scene 'Scene Split'
+18:34:08.516: [obs-websocket] preview layout children count : 3
+18:34:09.868: [obs-websocket] transition begin
+18:34:10.225: User switched to scene 'Scene Front Side'
+18:35:57.887: [obs-websocket] transition begin
+18:35:58.227: User switched to scene 'Scene Split'
+18:38:29.147: [obs-websocket] transition begin
+18:38:29.494: User switched to scene 'Scene Front Side'
+18:40:21.306: [obs-websocket] transition begin
+18:40:21.662: User switched to scene 'Scene Split'
+18:43:21.475: [obs-websocket] transition begin
+18:43:21.826: User switched to scene 'Scene Front Side'
+18:44:23.184: [obs-websocket] transition begin
+18:44:23.528: User switched to scene 'Scene Split'
+18:44:33.077: [obs-websocket] transition begin
+18:44:33.429: User switched to scene 'Scene Front Side'
+18:44:54.107: [obs-websocket] transition begin
+18:44:54.460: User switched to scene 'Scene Split'
+18:45:01.475: [obs-websocket] transition begin
+18:45:01.828: User switched to scene 'Scene Front Side'
+18:45:12.212: [obs-websocket] transition begin
+18:45:12.561: User switched to scene 'Scene Split'
+18:45:29.434: [obs-websocket] transition begin
+18:45:29.793: User switched to scene 'Scene Front Side'
+18:45:46.992: User switched to scene 'Scene Split'
+18:45:59.075: [obs-websocket] transition begin
+18:45:59.430: User switched to scene 'Scene Front Side'
+18:46:38.006: User switched to scene '4CamTestScreen'
+18:46:38.006: [obs-websocket] preview layout children count : 3
+18:46:40.805: User switched to scene 'Scene Front Side'
+18:46:40.806: [obs-websocket] preview layout children count : 3
+18:48:59.201: [obs-websocket] transition begin
+18:48:59.589: User switched to scene 'Scene Split'
+18:49:00.443: [obs-websocket] transition begin
+18:49:00.794: User switched to scene 'Scene Front Side'
+18:50:04.226: User switched to scene 'SceneTurn1FinishLine'
+18:50:04.226: [obs-websocket] preview layout children count : 3
+18:50:27.055: [obs-websocket] transition begin
+18:50:27.393: User switched to scene 'Scene Split'
+18:51:53.768: [obs-websocket] transition begin
+18:51:54.127: User switched to scene 'SceneTurn1FinishLine'
+18:59:30.776: [obs-websocket] transition begin
+18:59:31.128: User switched to scene 'Scene Split'
+19:01:04.889: [obs-websocket] transition begin
+19:01:05.264: User switched to scene 'SceneTurn1FinishLine'
+19:01:13.843: [obs-websocket] transition begin
+19:01:14.193: User switched to scene 'Scene Split'
+19:02:27.716: [obs-websocket] transition begin
+19:02:28.060: User switched to scene 'SceneTurn1FinishLine'
+19:04:21.974: [obs-websocket] transition begin
+19:04:22.328: User switched to scene 'Scene Split'
+19:07:31.049: [obs-websocket] transition begin
+19:07:31.396: User switched to scene 'SceneTurn1FinishLine'
+19:09:12.376: [obs-websocket] transition begin
+19:09:12.728: User switched to scene 'Scene Split'
+19:09:23.601: [obs-websocket] transition begin
+19:09:23.960: User switched to scene 'SceneTurn1FinishLine'
+19:09:29.908: [obs-websocket] transition begin
+19:09:30.260: User switched to scene 'Scene Split'
+19:12:36.767: [obs-websocket] transition begin
+19:12:37.129: User switched to scene 'SceneTurn1FinishLine'
+19:16:17.107: [obs-websocket] transition begin
+19:16:17.462: User switched to scene 'Scene Split'
+19:16:48.363: User switched to scene 'Scene FinishResults'
+19:16:48.363: [obs-websocket] preview layout children count : 3
+19:17:07.938: User switched to scene 'Scene Front Side'
+19:17:07.938: [obs-websocket] preview layout children count : 3
+19:17:09.982: User switched to scene 'SceneTurn1FinishLine'
+19:17:09.982: [obs-websocket] preview layout children count : 3
+19:17:11.394: User switched to scene 'Scene BackSide'
+19:17:11.394: [obs-websocket] preview layout children count : 3
+19:17:13.611: User switched to scene 'Scene Split'
+19:17:13.611: [obs-websocket] preview layout children count : 3
+19:18:40.222: [obs-websocket] transition begin
+19:18:40.561: User switched to scene 'SceneTurn1FinishLine'
+19:28:26.259: [obs-websocket] transition begin
+19:28:26.641: User switched to scene 'Scene Split'
+19:30:26.175: [obs-websocket] transition begin
+19:30:26.527: User switched to scene 'SceneTurn1FinishLine'
+19:34:17.650: [obs-websocket] transition begin
+19:34:17.993: User switched to scene 'Scene Split'
+19:35:25.677: [obs-websocket] transition begin
+19:35:26.027: User switched to scene 'SceneTurn1FinishLine'
+19:37:26.084: [obs-websocket] transition begin
+19:37:26.425: User switched to scene 'Scene Split'
+19:42:21.501: [obs-websocket] transition begin
+19:42:21.861: User switched to scene 'SceneTurn1FinishLine'
+19:46:40.271: User switched to scene 'Scene FinishResults'
+19:46:40.271: [obs-websocket] preview layout children count : 3
+19:48:46.835: User added source 'Results' (browser_source) to scene 'Scene FinishResults'
+19:52:21.374: User added filter 'Color Key' (color_key_filter) to source 'Results'
+20:03:11.675: Source 'Results' renamed to 'ResultsKeirin'
+20:04:16.496: User switched to scene 'Scene Front Side'
+20:04:16.496: [obs-websocket] preview layout children count : 3
+20:04:28.344: User switched to scene 'SceneTurn1FinishLine'
+20:04:28.344: [obs-websocket] preview layout children count : 3
+20:04:29.919: User switched to scene 'Scene BackSide'
+20:04:29.919: [obs-websocket] preview layout children count : 3
+20:04:31.525: User switched to scene 'Scene Split'
+20:04:31.525: [obs-websocket] preview layout children count : 3
+20:04:34.156: User switched to scene 'Scene Front Side'
+20:04:34.156: [obs-websocket] preview layout children count : 3
+20:04:36.113: User switched to scene 'SceneTurn1FinishLine'
+20:04:36.113: [obs-websocket] preview layout children count : 3
+20:04:37.528: User switched to scene 'Scene Front Side'
+20:04:37.528: [obs-websocket] preview layout children count : 3
+20:04:39.314: User switched to scene 'SceneTurn1FinishLine'
+20:04:39.314: [obs-websocket] preview layout children count : 3
+20:04:40.802: User switched to scene 'Scene Front Side'
+20:04:40.802: [obs-websocket] preview layout children count : 3
+20:04:42.200: User switched to scene 'SceneTurn1FinishLine'
+20:04:42.200: [obs-websocket] preview layout children count : 3
+20:04:44.582: User switched to scene 'Scene Front Side'
+20:04:44.582: [obs-websocket] preview layout children count : 3
+20:05:35.553: User switched to scene 'SceneTurn1FinishLine'
+20:05:35.553: [obs-websocket] preview layout children count : 3
+20:05:37.593: User switched to scene 'Scene BackSide'
+20:05:37.593: [obs-websocket] preview layout children count : 3
+20:05:39.325: User switched to scene 'Scene Split'
+20:05:39.325: [obs-websocket] preview layout children count : 3
+20:05:53.509: User added source 'ResultsKeirin' (browser_source) to scene 'Scene Split'
+20:06:13.063: User switched to scene 'Scene FinishResults'
+20:06:13.063: [obs-websocket] preview layout children count : 3
+20:07:06.132: User added source 'ResultsA' (browser_source) to scene 'Scene FinishResults'
+20:07:50.119: User added filter 'Chroma Key' (chroma_key_filter) to source 'ResultsA'
+20:11:32.428: User added source 'ResultsB_C' (browser_source) to scene 'Scene FinishResults'
+20:12:34.421: User added filter 'Chroma Key' (chroma_key_filter) to source 'ResultsB_C'
+20:16:40.358: User switched to scene 'SceneTurn1FinishLine'
+20:16:40.358: [obs-websocket] preview layout children count : 3
+20:16:46.441: [obs-websocket] transition begin
+20:16:46.795: User switched to scene 'Scene Split'
+20:17:06.868: adding 23 milliseconds of audio buffering, total audio buffering is now 371 milliseconds
+20:19:52.941: [obs-websocket] transition begin
+20:19:53.293: User switched to scene 'SceneTurn1FinishLine'
+20:21:29.080: User switched to scene 'Scene Front Side'
+20:21:29.080: [obs-websocket] preview layout children count : 3
+20:21:47.407: [obs-websocket] transition begin
+20:21:47.762: User switched to scene 'Scene Split'
+20:23:56.208: [obs-websocket] transition begin
+20:23:56.561: User switched to scene 'Scene Front Side'
+20:25:56.507: [obs-websocket] transition begin
+20:25:56.864: User switched to scene 'Scene Split'
+20:27:05.817: User switched to scene 'Scene FinishResults'
+20:27:05.817: [obs-websocket] preview layout children count : 3
+20:27:23.741: [obs-websocket] transition begin
+20:27:24.118: User switched to scene 'Scene Front Side'
+20:27:50.655: adding 23 milliseconds of audio buffering, total audio buffering is now 394 milliseconds
+20:33:51.341: User switched to scene 'SceneTurn1FinishLine'
+20:33:51.342: [obs-websocket] preview layout children count : 3
+20:33:53.316: User switched to scene 'Scene BackSide'
+20:33:53.316: [obs-websocket] preview layout children count : 3
+20:33:54.311: User switched to scene 'Scene Split'
+20:33:54.312: [obs-websocket] preview layout children count : 3
+20:33:59.362: [obs-websocket] transition begin
+20:33:59.750: User switched to scene 'Scene FinishResults'
+20:34:10.145: User switched to scene 'SceneTurn1FinishLine'
+20:34:10.146: [obs-websocket] preview layout children count : 3
+20:34:54.141: [obs-websocket] transition begin
+20:34:54.502: User switched to scene 'Scene Split'
+20:35:19.350: User added source 'ResultsB_C' (browser_source) to scene 'Scene Split'
+20:35:36.665: User added source 'ResultsA' (browser_source) to scene 'Scene Split'
+20:37:03.955: [obs-websocket] transition begin
+20:37:04.295: User switched to scene 'SceneTurn1FinishLine'
+20:38:52.453: [obs-websocket] transition begin
+20:38:52.799: User switched to scene 'Scene Split'
+20:39:14.508: [obs-websocket] transition begin
+20:39:14.859: User switched to scene 'SceneTurn1FinishLine'
+20:42:43.612: [obs-websocket] transition begin
+20:42:43.971: User switched to scene 'Scene Split'
+20:42:53.051: [obs-websocket] transition begin
+20:42:53.395: User switched to scene 'SceneTurn1FinishLine'
+20:45:42.313: User switched to scene 'Scene FinishResults'
+20:45:42.314: [obs-websocket] preview layout children count : 3
+20:46:12.322: User switched to scene 'Scene Front Side'
+20:46:12.322: [obs-websocket] preview layout children count : 3
+20:46:17.001: User switched to scene 'SceneTurn1FinishLine'
+20:46:17.001: [obs-websocket] preview layout children count : 3
+20:46:19.174: adding 23 milliseconds of audio buffering, total audio buffering is now 417 milliseconds
+20:47:03.979: [obs-websocket] transition begin
+20:47:04.334: User switched to scene 'Scene Split'
+20:49:20.801: [obs-websocket] transition begin
+20:49:21.162: User switched to scene 'SceneTurn1FinishLine'
+20:51:05.787: [obs-websocket] transition begin
+20:51:06.132: User switched to scene 'Scene Split'
+20:51:06.945: [obs-websocket] transition begin
+20:51:07.294: User switched to scene 'SceneTurn1FinishLine'
+20:51:16.315: [obs-websocket] transition begin
+20:51:16.668: User switched to scene 'Scene Split'
+20:54:12.301: User switched to scene 'Scene BackSide'
+20:54:12.301: [obs-websocket] preview layout children count : 3
+20:54:14.843: User switched to scene 'Scene Split'
+20:54:14.844: [obs-websocket] preview layout children count : 3
+20:55:02.041: [obs-websocket] transition begin
+20:55:02.394: User switched to scene 'SceneTurn1FinishLine'
+20:57:07.965: [obs-websocket] transition begin
+20:57:08.345: User switched to scene 'Scene Split'
+20:57:27.171: User switched to scene 'Scene FinishResults'
+20:57:27.171: [obs-websocket] preview layout children count : 3
+20:57:51.334: [obs-websocket] transition begin
+20:57:51.721: User switched to scene 'SceneTurn1FinishLine'
+20:57:52.269: adding 23 milliseconds of audio buffering, total audio buffering is now 441 milliseconds
+20:58:32.717: User switched to scene 'Scene FinishResults'
+20:58:32.717: [obs-websocket] preview layout children count : 3
+21:01:49.367: adding 23 milliseconds of audio buffering, total audio buffering is now 464 milliseconds
+21:12:56.329: [rtmp stream: 'simple_stream'] User stopped the stream
+21:12:56.329: Output 'simple_stream': stopping
+21:12:56.329: Output 'simple_stream': Total encoded frames: 480157
+21:12:56.329: Output 'simple_stream': Total drawn frames: 480158
+21:12:56.329: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 971 (0.2%)
+21:12:56.329: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 2983 (0.6%)
+21:12:56.329: ==== Streaming Stop ================================================
+21:12:57.619: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/pantonvich/Videos/2017-05-06_16-46-12.flv' stopped
+21:12:57.619: Output 'simple_file_output': stopping
+21:12:57.619: Output 'simple_file_output': Total encoded frames: 480160
+21:12:57.619: Output 'simple_file_output': Total drawn frames: 480160
+21:12:57.619: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 971 (0.2%)
+21:12:57.619: ==== Recording Stop ================================================
+21:13:24.212: ==== Shutting down ==================================================
+21:13:24.228: Switched to scene '(null)'
+21:13:24.229: [obs-websocket] preview layout children count : 3
+21:13:24.236: TurnSwitch: Stopping capture of 'DeckLink SDI (4)'...
+21:13:24.332: Turn3: Stopping capture of 'DeckLink SDI (2)'...
+21:13:24.400: Turn1: Stopping capture of 'DeckLink SDI (1)'...
+21:13:24.471: FinishLine: Stopping capture of 'DeckLink SDI (3)'...
+21:13:24.548: WASAPI: Device 'Speakers (4- Blackmagic Audio)' Terminated
+21:13:24.553: WASAPI: Device 'Mic in at rear panel (Pink) (Realtek High Definition Audio)' Terminated
+21:13:24.558: All scene data cleared
+21:13:24.558: ------------------------------------------------
+21:13:24.627: Freeing OBS context data
+21:13:24.662: [obs-websocket] goodbye!
+21:13:24.797: == Profiler Results =============================
+21:13:24.797: run_program_init: 32593.2 ms
+21:13:24.797:  ┣OBSApp::AppInit: 62.897 ms
+21:13:24.797:  ┃ ┗OBSApp::InitLocale: 29.764 ms
+21:13:24.797:  ┗OBSApp::OBSInit: 32300.9 ms
+21:13:24.797:    ┣obs_startup: 29.095 ms
+21:13:24.797:    ┗OBSBasic::OBSInit: 31776 ms
+21:13:24.797:      ┣OBSBasic::InitBasicConfig: 0.407 ms
+21:13:24.797:      ┣OBSBasic::ResetAudio: 1.036 ms
+21:13:24.797:      ┣OBSBasic::ResetVideo: 1179.79 ms
+21:13:24.797:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+21:13:24.797:      ┣OBSBasic::InitHotkeys: 0.052 ms
+21:13:24.797:      ┣obs_load_all_modules: 3097.32 ms
+21:13:24.797:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 14.648 ms
+21:13:24.797:      ┃ ┣obs_init_module(enc-amf.dll): 14.833 ms
+21:13:24.797:      ┃ ┣obs_init_module(frontend-tools.dll): 2.72 ms
+21:13:24.797:      ┃ ┣obs_init_module(image-source.dll): 0.006 ms
+21:13:24.797:      ┃ ┣obs_init_module(obs-browser.dll): 0.477 ms
+21:13:24.797:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 160.398 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-filters.dll): 0.027 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-outputs.dll): 0.013 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-qsv11.dll): 334.847 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-text.dll): 0.515 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-transitions.dll): 0.007 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-vst.dll): 0.003 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-websocket.dll): 154.858 ms
+21:13:24.798:      ┃ ┣obs_init_module(obs-x264.dll): 0.002 ms
+21:13:24.798:      ┃ ┣obs_init_module(rtmp-services.dll): 38.274 ms
+21:13:24.798:      ┃ ┣obs_init_module(text-freetype2.dll): 0.057 ms
+21:13:24.798:      ┃ ┣obs_init_module(vlc-video.dll): 85.497 ms
+21:13:24.798:      ┃ ┣obs_init_module(win-capture.dll): 0.107 ms
+21:13:24.798:      ┃ ┣obs_init_module(win-decklink.dll): 48.22 ms
+21:13:24.798:      ┃ ┣obs_init_module(win-dshow.dll): 51.871 ms
+21:13:24.798:      ┃ ┣obs_init_module(win-mf.dll): 70.117 ms
+21:13:24.798:      ┃ ┣obs_init_module(win-wasapi.dll): 0.017 ms
+21:13:24.798:      ┃ ┗reset_win32_symbol_paths: 0.144 ms
+21:13:24.798:      ┣OBSBasic::ResetOutputs: 71.85 ms
+21:13:24.798:      ┣OBSBasic::CreateHotkeys: 0.035 ms
+21:13:24.798:      ┣OBSBasic::InitService: 3.21 ms
+21:13:24.798:      ┣OBSBasic::InitPrimitives: 0.538 ms
+21:13:24.798:      ┗OBSBasic::Load: 27266.2 ms
+21:13:24.798: obs_hotkey_thread(25 ms): min=0.001 ms, median=0.004 ms, max=17.951 ms, 99th percentile=0.019 ms, 100% below 25 ms
+21:13:24.798: audio_thread(Audio): min=0 ms, median=9.927 ms, max=193.58 ms, 99th percentile=14.012 ms
+21:13:24.798:  ┗receive_audio: min=0.001 ms, median=0.591 ms, max=130.938 ms, 99th percentile=1.019 ms, 0.918493 calls per parent call
+21:13:24.798:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.185 ms, 99th percentile=0.003 ms
+21:13:24.798:    ┗do_encode: min=0.168 ms, median=0.586 ms, max=130.93 ms, 99th percentile=1.013 ms
+21:13:24.798:      ┣encode(simple_aac): min=0.165 ms, median=0.235 ms, max=59.216 ms, 99th percentile=0.4 ms, 0.0811688 calls per parent call
+21:13:24.798:      ┣encode(simple_aac): min=0.165 ms, median=0.228 ms, max=0.624 ms, 99th percentile=0.371 ms, 0.00619553 calls per parent call
+21:13:24.798:      ┣encode(simple_aac): min=0.165 ms, median=0.45 ms, max=19.479 ms, 99th percentile=0.966 ms, 0.106357 calls per parent call
+21:13:24.798:      ┣encode(simple_aac): min=0.168 ms, median=0.632 ms, max=2.095 ms, 99th percentile=1.091 ms, 0.00356125 calls per parent call
+21:13:24.798:      ┗encode(simple_aac): min=0.165 ms, median=0.577 ms, max=27.64 ms, 99th percentile=0.952 ms, 0.802717 calls per parent call
+21:13:24.798: obs_video_thread(33.3333 ms): min=0.416 ms, median=23.512 ms, max=27026.5 ms, 99th percentile=40.631 ms, 70.8435% below 33.333 ms
+21:13:24.798:  ┣tick_sources: min=0 ms, median=0.021 ms, max=27025.6 ms, 99th percentile=0.669 ms
+21:13:24.798:  ┣render_displays: min=0 ms, median=22.756 ms, max=130.522 ms, 99th percentile=39.562 ms
+21:13:24.798:  ┗output_frame: min=0.376 ms, median=0.752 ms, max=40.33 ms, 99th percentile=1.203 ms
+21:13:24.798:    ┣gs_context(video->graphics): min=0.124 ms, median=0.359 ms, max=39.881 ms, 99th percentile=0.586 ms
+21:13:24.798:    ┃ ┣render_video: min=0.032 ms, median=0.13 ms, max=39.486 ms, 99th percentile=0.209 ms
+21:13:24.798:    ┃ ┃ ┣render_main_texture: min=0.003 ms, median=0.093 ms, max=39.444 ms, 99th percentile=0.158 ms
+21:13:24.798:    ┃ ┃ ┣render_output_texture: min=0.007 ms, median=0.012 ms, max=0.242 ms, 99th percentile=0.02 ms
+21:13:24.798:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.01 ms, max=0.153 ms, 99th percentile=0.017 ms
+21:13:24.798:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.008 ms, max=0.167 ms, 99th percentile=0.013 ms
+21:13:24.798:    ┃ ┣download_frame: min=0 ms, median=0.008 ms, max=14.832 ms, 99th percentile=0.012 ms
+21:13:24.798:    ┃ ┗gs_flush: min=0.055 ms, median=0.22 ms, max=3.775 ms, 99th percentile=0.371 ms
+21:13:24.798:    ┗output_video_data: min=0.001 ms, median=0.355 ms, max=1.585 ms, 99th percentile=0.682 ms
+21:13:24.798: video_thread(video): min=0 ms, median=0.001 ms, max=1001.48 ms, 99th percentile=1.113 ms
+21:13:24.798:  ┗receive_video: min=0.771 ms, median=0.827 ms, max=92.293 ms, 99th percentile=1.885 ms, 0.207811 calls per parent call
+21:13:24.798:    ┗do_encode: min=0.769 ms, median=0.826 ms, max=92.292 ms, 99th percentile=1.884 ms
+21:13:24.798:      ┗encode(simple_h264_stream): min=0.757 ms, median=0.809 ms, max=88.248 ms, 99th percentile=1.843 ms
+21:13:24.798: OBSBasic::ResetOutputs: min=0.232 ms, median=1.027 ms, max=1.103 ms, 99th percentile=1.103 ms
+21:13:24.798: OBSBasic::ResetVideo: min=10.02 ms, median=0 ms, max=26.607 ms, 99th percentile=26.607 ms
+21:13:24.798: obs_video_thread(33.3333 ms): min=9.162 ms, median=30.513 ms, max=84350.8 ms, 99th percentile=34.243 ms, 98.3544% below 33.333 ms
+21:13:24.798:  ┣tick_sources: min=0.014 ms, median=0.022 ms, max=84313.5 ms, 99th percentile=0.431 ms
+21:13:24.798:  ┣render_displays: min=6.604 ms, median=29.626 ms, max=233.497 ms, 99th percentile=32.697 ms
+21:13:24.798:  ┗output_frame: min=0.225 ms, median=0.788 ms, max=23.756 ms, 99th percentile=1.274 ms
+21:13:24.798:    ┣gs_context(video->graphics): min=0.224 ms, median=0.43 ms, max=23.279 ms, 99th percentile=0.738 ms
+21:13:24.798:    ┃ ┣render_video: min=0.089 ms, median=0.154 ms, max=1.042 ms, 99th percentile=0.28 ms
+21:13:24.799:    ┃ ┃ ┣render_main_texture: min=0.059 ms, median=0.116 ms, max=0.931 ms, 99th percentile=0.214 ms
+21:13:24.799:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.012 ms, max=0.276 ms, 99th percentile=0.022 ms
+21:13:24.799:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.01 ms, max=0.181 ms, 99th percentile=0.019 ms
+21:13:24.799:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.009 ms, max=0.286 ms, 99th percentile=0.015 ms
+21:13:24.799:    ┃ ┣download_frame: min=0 ms, median=0.008 ms, max=22.819 ms, 99th percentile=0.013 ms
+21:13:24.799:    ┃ ┗gs_flush: min=0.081 ms, median=0.265 ms, max=3.847 ms, 99th percentile=0.449 ms
+21:13:24.799:    ┗output_video_data: min=0.001 ms, median=0.356 ms, max=1.417 ms, 99th percentile=0.694 ms
+21:13:24.799: video_thread(video): min=0.001 ms, median=0.872 ms, max=12644.8 ms, 99th percentile=1.453 ms
+21:13:24.799:  ┗receive_video: min=0 ms, median=0.899 ms, max=99.989 ms, 99th percentile=17.392 ms, 1.12149 calls per parent call
+21:13:24.799:    ┗do_encode: min=0.778 ms, median=0.898 ms, max=99.988 ms, 99th percentile=17.39 ms
+21:13:24.799:      ┣encode(simple_h264_stream): min=0.781 ms, median=0.822 ms, max=26.601 ms, 99th percentile=1.604 ms, 0.0240375 calls per parent call
+21:13:24.799:      ┣encode(simple_h264_stream): min=0.768 ms, median=0.812 ms, max=21.183 ms, 99th percentile=1.383 ms, 0.412324 calls per parent call
+21:13:24.799:      ┣encode(simple_h264_stream): min=0.782 ms, median=0.824 ms, max=1.992 ms, 99th percentile=1.369 ms, 0.0138112 calls per parent call
+21:13:24.799:      ┗encode(simple_h264_stream): min=0.761 ms, median=0.842 ms, max=98.114 ms, 99th percentile=23.34 ms, 0.549827 calls per parent call
+21:13:24.799: obs_video_thread(33.3333 ms): min=0.651 ms, median=30.051 ms, max=318.116 ms, 99th percentile=36.635 ms, 96.4812% below 33.333 ms
+21:13:24.799:  ┣tick_sources: min=0.001 ms, median=0.021 ms, max=307.925 ms, 99th percentile=0.396 ms
+21:13:24.799:  ┣render_displays: min=0.001 ms, median=29.369 ms, max=88.767 ms, 99th percentile=35.921 ms
+21:13:24.799:  ┗output_frame: min=0.31 ms, median=0.576 ms, max=47.67 ms, 99th percentile=0.83 ms
+21:13:24.799:    ┣gs_context(video->graphics): min=0.138 ms, median=0.412 ms, max=47.491 ms, 99th percentile=0.573 ms
+21:13:24.799:    ┃ ┣render_video: min=0.034 ms, median=0.147 ms, max=7.723 ms, 99th percentile=0.202 ms
+21:13:24.799:    ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.11 ms, max=7.679 ms, 99th percentile=0.154 ms
+21:13:24.799:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.012 ms, max=0.113 ms, 99th percentile=0.016 ms
+21:13:24.799:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.01 ms, max=0.134 ms, 99th percentile=0.015 ms
+21:13:24.799:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.009 ms, max=0.195 ms, 99th percentile=0.013 ms
+21:13:24.799:    ┃ ┣download_frame: min=0 ms, median=0.008 ms, max=0.086 ms, 99th percentile=0.011 ms
+21:13:24.799:    ┃ ┗gs_flush: min=0.099 ms, median=0.256 ms, max=1.069 ms, 99th percentile=0.37 ms
+21:13:24.799:    ┗output_video_data: min=0.117 ms, median=0.156 ms, max=0.681 ms, 99th percentile=0.283 ms
+21:13:24.799: video_thread(video): min=0.001 ms, median=0.46 ms, max=110.676 ms, 99th percentile=0.708 ms
+21:13:24.799:  ┗receive_video: min=0.379 ms, median=0.457 ms, max=110.674 ms, 99th percentile=0.687 ms
+21:13:24.799:    ┗do_encode: min=0.378 ms, median=0.457 ms, max=110.673 ms, 99th percentile=0.686 ms
+21:13:24.799:      ┗encode(simple_h264_stream): min=0.362 ms, median=0.405 ms, max=1.723 ms, 99th percentile=0.599 ms
+21:13:24.799: =================================================
+21:13:24.799: == Profiler Time Between Calls ==================
+21:13:24.799: obs_hotkey_thread(25 ms): min=24.528 ms, median=25.027 ms, max=125.237 ms, 81.6056% within ±2% of 25 ms (0% lower, 18.3944% higher)
+21:13:24.799: obs_video_thread(33.3333 ms): min=8.304 ms, median=33.334 ms, max=27026.5 ms, 69.9566% within ±2% of 33.333 ms (0.909978% lower, 29.1334% higher)
+21:13:24.799: obs_video_thread(33.3333 ms): min=17.953 ms, median=33.333 ms, max=84350.8 ms, 96.6467% within ±2% of 33.333 ms (2.1485% lower, 1.2048% higher)
+21:13:24.799: obs_video_thread(33.3333 ms): min=15.195 ms, median=33.333 ms, max=318.139 ms, 95.6083% within ±2% of 33.333 ms (1.3609% lower, 3.0308% higher)
+21:13:24.799: =================================================
+21:13:25.993: Number of memory leaks: 49
