@@ -122,6 +122,8 @@
             this.chkUpdateLap = new System.Windows.Forms.CheckBox();
             this.chkShowResults = new System.Windows.Forms.CheckBox();
             this.txtCat = new System.Windows.Forms.TextBox();
+            this.txtResultsDelay = new System.Windows.Forms.TextBox();
+            this.btnResultsStop = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LedFrequencyLabelTrackBar)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -1334,11 +1336,33 @@
             this.txtCat.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtCat.TextChanged += new System.EventHandler(this.txtCat_TextChanged);
             // 
+            // txtResultsDelay
+            // 
+            this.txtResultsDelay.Location = new System.Drawing.Point(428, 403);
+            this.txtResultsDelay.Name = "txtResultsDelay";
+            this.txtResultsDelay.Size = new System.Drawing.Size(29, 20);
+            this.txtResultsDelay.TabIndex = 51;
+            this.txtResultsDelay.Text = "60";
+            this.txtResultsDelay.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnResultsStop
+            // 
+            this.btnResultsStop.Location = new System.Drawing.Point(467, 402);
+            this.btnResultsStop.Name = "btnResultsStop";
+            this.btnResultsStop.Size = new System.Drawing.Size(40, 23);
+            this.btnResultsStop.TabIndex = 52;
+            this.btnResultsStop.Tag = "";
+            this.btnResultsStop.Text = "Stop";
+            this.btnResultsStop.UseVisualStyleBackColor = true;
+            this.btnResultsStop.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ControllerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 516);
+            this.Controls.Add(this.btnResultsStop);
+            this.Controls.Add(this.txtResultsDelay);
             this.Controls.Add(this.txtCat);
             this.Controls.Add(this.chkShowResults);
             this.Controls.Add(this.chkUpdateLap);
@@ -1502,6 +1526,8 @@
         private System.Windows.Forms.CheckBox chkUpdateLap;
         private System.Windows.Forms.CheckBox chkShowResults;
         private System.Windows.Forms.TextBox txtCat;
+        public System.Windows.Forms.TextBox txtResultsDelay;
+        public System.Windows.Forms.Button btnResultsStop;
     }
 }
 
